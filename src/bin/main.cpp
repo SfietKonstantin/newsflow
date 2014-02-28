@@ -36,6 +36,7 @@
 #include <QtGui/QGuiApplication>
 #include <QtQml/qqml.h>
 #include <QtQuick/QQuickView>
+#include <article.h>
 #include <articlesmodel.h>
 #include <feed.h>
 #include <feedadder.h>
@@ -57,6 +58,7 @@ void defineImports()
     qmlRegisterType<FeedAdder>(URI, 1, 0, "FeedAdder");
     qmlRegisterType<FeedManager>(URI, 1, 0, "FeedManager");
     qmlRegisterType<FeedModel>(URI, 1, 0, "FeedModel");
+    qmlRegisterUncreatableType<Article>(URI, 1, 0, "Article", UNCREATABLE);
     qmlRegisterUncreatableType<Feed>(URI, 1, 0, "Feed", UNCREATABLE);
 }
 

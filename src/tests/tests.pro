@@ -1,2 +1,2 @@
 TEMPLATE = subdirs
-SUBDIRS = rss-support
+CONFIG(tests):SUBDIRS = rss-support
