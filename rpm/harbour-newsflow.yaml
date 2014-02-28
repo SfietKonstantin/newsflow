@@ -1,0 +1,26 @@
+Name: harbour-newsflow
+Summary: News Flow
+Version: 0.1.0
+Release: 1
+Group: Qt/Qt
+URL: http://example.org/
+License: LICENSE
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  RSS and social news application.
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+- sailfishapp >= 0.0.10
+Requires:
+- sailfishsilica-qt5 >= 0.10.9
+Files:
+- '%{_bindir}/%{name}'
+- '%{_datadir}/%{name}'
+- '%{_datadir}/applications/%{name}.desktop'
+- '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'
+PkgBR: []

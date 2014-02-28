@@ -1,0 +1,829 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planet KDE</title>
+    <link>http://planetKDE.org/</link>
+    <language>en</language>
+    <description>Planet KDE - http://planetKDE.org/</description>
+    <atom:link href="http://planetKDE.org/rss20.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <guid isPermaLink="false">http://creative-destruction.me/?p=598</guid>
+      <title>Open Forum Academy round table on patent non-aggression pacts</title>
+      <author>Mirko Boehm</author>
+      <pubDate>Wed, 19 Feb 2014 09:15:46 GMT</pubDate>
+      <link>http://creative-destruction.me/2014/02/19/ofa-patent-non-aggression-pacts/</link>
+      <description>&lt;p&gt;Another day, another trip to Brussels. Today the &lt;a href="http://www.openforumacademy.org/"&gt;Openforum Academy&lt;/a&gt;, the Openforum Europe think tank &amp;#8220;with a broad aim to examine the paradigm shift towards openness in computing&amp;#8221; is inviting to a round table and discussion about &amp;#8220;&lt;a href="http://www.openforumacademy.org/events/events/invite%20OFA%20meeting%20190214.pdf" title="Openforum Academy - patent non-aggression pacts round table"&gt;Patent non-aggression pacts: a way forward for technological innovation?&lt;/a&gt;&amp;#8221; Next to Clara Neppel, an examiner in the field of computer-implemented inventions at the European Patent Office, and Carlo Piana of the FSFE, I will be speaking about &lt;a href="http://www.openinventionnetwork.com/" title="Open Invention Network"&gt;Open Invention Network&lt;/a&gt; and it&amp;#8217;s role as a non-aggression network with a strictly defined field of use, namely Open Source software. The results of the round table will be compiled into a whitepaper and published later by Openforum Academy.&lt;br /&gt;
+&lt;span id="more-598"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Patent non-aggression pacts are a controversial issue. When individual companies pledge non-aggression, like Twitter did, that is laudable. Essentially, Twitter announced that it will not turn into a patent troll, a significant and important initiative that has the potential to trigger cultural change for the better in the software industry. However in other such cases, similar pledges were violated later-on, so how trustworthy are they, and can they be enforced if disagreement arises? This is one of the central questions I hope to get an answer to by those with a legal and policy background at the round table. When applied bilaterally by large corporations, non-aggression pacts may raise anti-trust concerns. However this is a case of &amp;#8220;blame the game, not the player&amp;#8221;, similar to the discussions around non-practising entities. Patents are temporary monopolies, they are an instrument specifically designed to control competition. Entities specialising in doing that are part of the system, similar to arbitrage traders in the stock market. They may even play a significant role for the functioning of the market for patents itself, by posing competition and pushing for patents to be sold at market price. If the behaviour of non-practising entities is a cause for concern, the game needs to be changed, and then the players will change, too. There are troublesome developments regarding patent trolls, but those are operating within the patent system we have created.&lt;/p&gt;
+&lt;p&gt;Open Invention Network is unique in that it is a non-aggression network open for every entity that is willing to pledge non-aggression within the Linux System definition. In my talk, I will focus on how non-practising entities and non-aggression pledges are integral parts of the patent system, the differences between the various kinds of non-aggression agreements, and under what criteria of entry, field of use definitions and cost of participation such agreements non-aggression pacts benefit technological innovation.&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href="http://creative-destruction.me/category/creativedestruction/"&gt;CreativeDestruction&lt;/a&gt;, &lt;a href="http://creative-destruction.me/category/english/"&gt;English&lt;/a&gt;, &lt;a href="http://creative-destruction.me/category/floss/"&gt;FLOSS&lt;/a&gt;, &lt;a href="http://creative-destruction.me/category/kde/"&gt;KDE&lt;/a&gt;, &lt;a href="http://creative-destruction.me/category/open-invention-network/"&gt;Open Invention Network&lt;/a&gt;, &lt;a href="http://creative-destruction.me/category/oss/"&gt;OSS&lt;/a&gt; Tagged: &lt;a href="http://creative-destruction.me/tag/city-of-brussels/"&gt;city of brussels&lt;/a&gt;, &lt;a href="http://creative-destruction.me/tag/creative-destruction/"&gt;Creative Destruction&lt;/a&gt;, &lt;a href="http://creative-destruction.me/tag/floss/"&gt;FLOSS&lt;/a&gt;, &lt;a href="http://creative-destruction.me/tag/free-software-foundation-europe/"&gt;free software foundation europe&lt;/a&gt;, &lt;a href="http://creative-destruction.me/tag/ilovefs/"&gt;ilovefs&lt;/a&gt;, &lt;a href="http://creative-destruction.me/tag/oin/"&gt;OIN&lt;/a&gt;, &lt;a href="http://creative-destruction.me/tag/software-patents/"&gt;software patents&lt;/a&gt;, &lt;a href="http://creative-destruction.me/tag/technology/"&gt;technology&lt;/a&gt; &lt;a href="http://feeds.wordpress.com/1.0/gocomments/creativedestructiondotme.wordpress.com/598/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/creativedestructiondotme.wordpress.com/598/" /&gt;&lt;/a&gt; &lt;a href="http://feeds.wordpress.com/1.0/godelicious/creativedestructiondotme.wordpress.com/598/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/creativedestructiondotme.wordpress.com/598/" /&gt;&lt;/a&gt; &lt;a href="http://feeds.wordpress.com/1.0/gofacebook/creativedestructiondotme.wordpress.com/598/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/facebook/creativedestructiondotme.wordpress.com/598/" /&gt;&lt;/a&gt; &lt;a href="http://feeds.wordpress.com/1.0/gotwitter/creativedestructiondotme.wordpress.com/598/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/twitter/creativedestructiondotme.wordpress.com/598/" /&gt;&lt;/a&gt; &lt;a href="http://feeds.wordpress.com/1.0/gostumble/creativedestructiondotme.wordpress.com/598/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/creativedestructiondotme.wordpress.com/598/" /&gt;&lt;/a&gt; &lt;a href="http://feeds.wordpress.com/1.0/godigg/creativedestructiondotme.wordpress.com/598/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/creativedestructiondotme.wordpress.com/598/" /&gt;&lt;/a&gt; &lt;a href="http://feeds.wordpress.com/1.0/goreddit/creativedestructiondotme.wordpress.com/598/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/creativedestructiondotme.wordpress.com/598/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=creative-destruction.me&amp;#038;blog=37425089&amp;#038;post=598&amp;#038;subd=creativedestructiondotme&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://blogs.fsfe.org/mario/?p=199</guid>
+      <title>Last chance ;-). And some more information.</title>
+      <author>Mario Fux (unormal)</author>
+      <pubDate>Tue, 18 Feb 2014 22:12:22 GMT</pubDate>
+      <link>http://blogs.fsfe.org/mario/?p=199</link>
+      <description>&lt;p&gt;As my &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt; is now open for two weeks I plan to give it another 24 hours and then close it. So you&amp;#8217;ve still time till tomorrow, Wednesday, February 19, 23.59 UTC to fill in the survey and participate in the draw.&lt;/p&gt;
+&lt;p&gt;If you should need more time or planned to fill in the &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt; after tomorrow night please ping me (unormal) on freenode.net or write me an email (fuxkdeorg). And thank a lot to all the people who already filled it in: thank you!&lt;/p&gt;
+&lt;p&gt;And now a promise: this is the last time I write here to ask you to fill in this &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt;. Next time I write about this topic I&amp;#8217;ll write about results. Although my diploma thesis will be in German I&amp;#8217;ll write some summaries or blog posts about the results in English and probably will do even a presentation or two about it.&lt;/p&gt;
+&lt;p&gt;And here yet another teaser: tomorrow I&amp;#8217;ll blog on planet kde about the dates and topics of the Randa Meetings in August 2014 &lt;img alt=";-)" class="wp-smiley" src="http://blogs.fsfe.org/mario/wp-includes/images/smilies/icon_wink.gif" /&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://www.calligra.org/?p=4020</guid>
+      <title>Calligra 2.8 Beta 3 Released</title>
+      <author>Calligra News</author>
+      <pubDate>Tue, 18 Feb 2014 20:01:54 GMT</pubDate>
+      <link>http://www.calligra.org/news/calligra-2-8-beta-3-released/</link>
+      <description>&lt;p&gt;The Calligra team is proud and pleased to announce the third beta release of version 2.8 of the &lt;a href="http://www.calligra-suite.org/" target="_blank" title="Home page of the Calligra Suite"&gt;Calligra Suite&lt;/a&gt; for testing! The team will now focus on fixing remaining bugs. Let&amp;#8217;s make sure the final release of 2.8, expected by early March is as stable as possible by giving the current beta a good testing!&lt;/p&gt;
+&lt;h2&gt;Try It Out&lt;/h2&gt;
+&lt;p&gt;The source code of the snapshot is available for download: &lt;a href="http://download.kde.org/unstable/calligra-2.7.92/calligra-2.7.92.tar.xz"&gt;calligra-2.7.92.tar.xz&lt;/a&gt;. Alternatively, you can &lt;a href="http://userbase.kde.org/Calligra/Download#Unstable_Release"&gt;download binaries for many Linux distributions&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;About the Calligra Suite&lt;/h2&gt;
+&lt;p&gt;The Calligra Suite is part of the applications from the KDE community. See more information at the website &lt;a href="http://www.calligra.org/"&gt;http://www.calligra.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://wire.kubuntu.org/?p=140</guid>
+      <title>One of the reasons Kubuntu rocks</title>
+      <author>Kubuntu Wire</author>
+      <pubDate>Tue, 18 Feb 2014 19:30:57 GMT</pubDate>
+      <link>http://wire.kubuntu.org/?p=140</link>
+      <description>&lt;p&gt;&lt;a href="http://www.flickr.com/photos/jriddell/12618861764/" title="gplus by Jonathan Riddell, on Flickr"&gt;&lt;img alt="gplus" height="337" src="http://farm6.staticflickr.com/5492/12618861764_2531301643.jpg" width="500" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here at Kubuntu we try our very best to backport releases of KDE Software Compilation and major pieces of KDE software to the latest stable and LTS release.&amp;#160; Our &lt;a href="https://launchpad.net/~kubuntu-ppa/+archive/backports/"&gt;backports archive&lt;/a&gt; does indeed have the latest 4.12.2 release.&amp;#160; For those of a more conservative preference the &lt;a href="https://launchpad.net/~kubuntu-ppa/+archive/ppa"&gt;updates archive&lt;/a&gt; has bug fix release 4.11.5 which is also put into the main &lt;a href="https://launchpad.net/ubuntu/saucy/+source/kde4libs"&gt;saucy-updates archive&lt;/a&gt; after some testing has shown it is free of regressions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://liquidat.wordpress.com/?p=2758</guid>
+      <title>KPrinter available for KDE 4</title>
+      <author>Roland Wolters (liquidat)</author>
+      <pubDate>Tue, 18 Feb 2014 14:40:29 GMT</pubDate>
+      <link>http://liquidat.wordpress.com/2014/02/18/kprinter-available-for-kde-4/</link>
+      <description>&lt;p&gt;&lt;img align="right" alt="KDE logo" class="size-full wp-image-2661" src="http://liquidat.files.wordpress.com/2013/12/150312877_5a20b7be83_b-e1387364432718.jpg?w=604" /&gt;&lt;em&gt;One of the missing features of KDE 4 compared to KDE 3 was the not longer available KPrinter, a tool to print Postscript documents even out of non-KDE programs.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In KDE 3 KPrinter was responsible for printing of KDE applications, but other programs used it as well: if they had no own printing configuration but the possibility to add a generic command (like lp/lpr) they were often configured to print against the KPrinter command. KPrinter took the printed file and provided the the user a modern and flexible graphical user interface dialog to pick the preferred printer, change the printer configuration and so on.&lt;/p&gt;
+&lt;p&gt;With the transition to KDE 4 KPrinter vanished in favor of the Qt print dialog options, which worked only for Qt/KDE programs. All other programs outside Qt/KDE which relied on KPrinter as a drop-in command line tool were at a loss.&lt;/p&gt;
+&lt;p&gt;Now Marco Nelles &amp;#8211; a co-worker of mine here at &lt;a href="https://www.credativ.de/"&gt;credativ&lt;/a&gt; &amp;#8211; published &lt;a href="https://www.credativ.de/credativ-blog/kprinter4-drucken-von-postscript-dokumenten-mit-kde-4"&gt;KPrinter for KDE 4&lt;/a&gt;. As the (German) blog post shows the new Kprinter provides what we already know from the KDE 3 times: a drop in replacement for other command line printing tools but with the usability and flexibility of the KDE printing dialog. The two screenshots of the post give you an idea of the new interface. For example, the new KPrinter offers to scale the pages to various sizes and even print posters.&lt;/p&gt;
+&lt;p&gt;This development is incredibly useful if you have legacy software or software which does not offer for example a cups interface. It also helps in case you need to print Postscript files with your own applications but do not want to hook on to Cups yourself.&lt;/p&gt;
+&lt;p&gt;As the blog post mentions, the future of the &lt;a href="https://github.com/credativ/kprinter4"&gt;kprinter code&lt;/a&gt;, hosted at Github, is open for everyone to participate. It might be worth a thought for example to extend the code to also process PDFs. If you want to track the development of kprinter you also might want to follow &lt;a href="http://kde-apps.org/content/show.php/KPrinter4?content=163537"&gt;kprinter&amp;#8217;s kde-apps page&lt;/a&gt;.&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href="http://liquidat.wordpress.com/category/kde/"&gt;KDE&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/linux/"&gt;Linux&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/office/"&gt;Office&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/technology/"&gt;Technology&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/ubuntu/"&gt;Ubuntu&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/x/"&gt;X&lt;/a&gt;  &lt;a href="http://feeds.wordpress.com/1.0/gocomments/liquidat.wordpress.com/2758/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/liquidat.wordpress.com/2758/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=liquidat.wordpress.com&amp;#038;blog=199237&amp;#038;post=2758&amp;#038;subd=liquidat&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:blogger.com,1999:blog-5376217205198004095.post-2453751893533471545</guid>
+      <title>$ICECC_VERSION</title>
+      <author>Lubo&#x161; Lu&#x148;&#xE1;k (llunak)</author>
+      <pubDate>Tue, 18 Feb 2014 08:31:29 GMT</pubDate>
+      <link>http://llunak.blogspot.com/2014/02/iceccversion.html</link>
+      <description>&lt;p&gt;It's been brought to my attention that the &lt;a href="http://github.com/icecc/icecream"&gt;Icecream&lt;/a&gt; documentation more or less suggests it is necessary to manually set up $ICECC_VERSION (which also involves creating the environment tarball with the compiler and so on). That is incorrect. I've already updated the documentation to say that, like with pretty much everything, Icecream simply figures it out itself by default.&lt;/p&gt; &lt;p&gt;So if you happen to use $ICECC_VERSION, unless you know why you do that (e.g. cross-compilation), don't. It's not only simpler but also better to leave it up to Icecream to package the system compiler as necessary, as it simply works, and avoids possible problems (such as updating the system compiler and forgetting to update the tarball).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://liquidat.wordpress.com/?p=2740</guid>
+      <title>[Howto] First Steps With Ansible</title>
+      <author>Roland Wolters (liquidat)</author>
+      <pubDate>Mon, 17 Feb 2014 11:25:47 GMT</pubDate>
+      <link>http://liquidat.wordpress.com/2014/02/17/howto-first-steps-with-ansible/</link>
+      <description>&lt;p&gt;&lt;img align="right" alt="Ansible Logo" class="size-thumbnail wp-image-2741" height="150" src="http://liquidat.files.wordpress.com/2014/02/ansible_logo_round.png?w=150&amp;#038;h=150" width="150" /&gt;&lt;em&gt;Ansible is a tool to manage systems and their configuration. Without the need for a client installed agent and with the ability to launch programs with command line, it seems to fit between classic configuration management like Puppet on one hand and ssh/dsh on the other.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;System/Configuration management is a hot topic right now. At Fosdem2014 there was an entire track dedicated to the topic &amp;#8211; and the rooms where constantly overcrowded. There are more and more large server installations out there these days. With virtualization, it again get sensible and possible to have one server for each service. All these often rather similar machines need to be managed and thus central configuration management tools like &lt;a href="http://puppetlabs.com/puppet/puppet-open-source"&gt;Puppet&lt;/a&gt; or &lt;a href="https://wiki.opscode.com/display/chef/Home"&gt;Chef&lt;/a&gt; became very popular. They keep all configuration stored in recipes on a central server, and the clients connect to it and pull the recipes regularly to ensure if everything is fine.&lt;/p&gt;
+&lt;p&gt;But sometimes there are smaller tasks: tasks which only need to be done once or once in a while, but for which a configuration management recipe might be too much. Also, it might happen that you have machines where you cannot easily install a Puppet client, or for example where you have machines which cannot contact your configuration management server via pull due to security concerns. For that situations &lt;a href="http://en.wikipedia.org/wiki/Secure_Shell"&gt;ssh&lt;/a&gt; is often the tool of sysadmin&amp;#8217;s choice. There are also cluster or distributed versions available like &lt;a href="http://www.netfort.gr.jp/~dancer/software/dsh.html.en"&gt;dsh&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.ansible.com"&gt;Ansible&lt;/a&gt; now fits right in between these two classes of tools: it does provide the possibility to serve recipes from a central server, but does not require the clients to run any other agent but ssh.&lt;/p&gt;
+&lt;h2&gt;Basic configuration, simple commands&lt;/h2&gt;
+&lt;p&gt;First of all Ansible needs to know the hosts its going to serve. They can be managed on the central server in &lt;code&gt;/etc/ansible/hosts&lt;/code&gt; or in a file configured in the shell variable &lt;code&gt;ANSIBLE_HOSTS&lt;/code&gt;. The hosts can be listed as IP addresses or host names, and can contain additional information like user names, ssh port and so on:&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+[web-servers]&#xD;
+www.example.net ansible_ssh_port=222&#xD;
+www.example.com ansible_ssh_user=liquidat&#xD;
+&#xD;
+[db-servers]&#xD;
+192.168.1.1&#xD;
+blue ansible_ssh_host=192.168.1.50&#xD;
+&lt;/pre&gt;
+&lt;p&gt;As soon as the hosts are defined, an Ansible &amp;#8220;ping&amp;#8221; can be used to see if they all can be reached. This is done from the central server &amp;#8211; Ansible is per default a pushing service, not a pulling one.&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+$ ansible all -m ping&#xD;
+www.example.net | success &amp;gt;&amp;gt; {&#xD;
+    &amp;quot;changed&amp;quot;: false, &#xD;
+    &amp;quot;ping&amp;quot;: &amp;quot;pong&amp;quot;&#xD;
+}&#xD;
+...&#xD;
+&lt;/pre&gt;
+&lt;p&gt;As seen above, Ansible was called with flag &amp;#8220;m&amp;#8221; which means module &amp;#8211; the module &amp;#8220;ping&amp;#8221; just contacts the servers and checks if everything is ok. In this case the servers answer was successfully. Also, as you see the output is formatted in &lt;a href="http://en.wikipedia.org/wiki/JSON"&gt;JSON&lt;/a&gt; style which is helpful in case the results need to be parsed anywhere.&lt;/p&gt;
+&lt;p&gt;In case you want to call arbitrary commands the flag &amp;#8220;a&amp;#8221; is needed:&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+$ ansible all -a &amp;quot;whoami&amp;quot; --sudo -K&#xD;
+sudo password: &#xD;
+www.example.net | success | rc=0 &amp;gt;&amp;gt;&#xD;
+root&#xD;
+...&#xD;
+&lt;/pre&gt;
+&lt;p&gt;The &amp;#8220;a&amp;#8221; flag provides arguments to the invocated modules. In case no module is given, the argument of the flag is executed on the machine directly. The flag &amp;#8220;sudo&amp;#8221; does call the argument with sudo rights, &amp;#8220;K&amp;#8221; asks for the sudo password. Btw., note that this requires all servers to use the same sudo password, so to run Ansible you should think about configuring sudo with NOPASSWD.&lt;/p&gt;
+&lt;h2&gt;More modules&lt;/h2&gt;
+&lt;p&gt;There are &lt;a href="http://docs.ansible.com/list_of_all_modules.html"&gt;dozens of modules&lt;/a&gt; provided with Ansible. For example, the file module can change permissions and ownership of a file or delete files and directories. The service module can check the state of services:&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+$ ansible www.example.com -m service -a &amp;quot;name=sshd state=restarted&amp;quot; --sudo -K&#xD;
+sudo password: &#xD;
+www.example.com | success &amp;gt;&amp;gt; {&#xD;
+    &amp;quot;changed&amp;quot;: true, &#xD;
+    &amp;quot;name&amp;quot;: &amp;quot;sshd&amp;quot;, &#xD;
+    &amp;quot;state&amp;quot;: &amp;quot;started&amp;quot;&#xD;
+}&#xD;
+&lt;/pre&gt;
+&lt;p&gt;There are modules to send e-mails, copy files, install software via various package managers, for the management of cloud resources, to manage different databases, and so on. For example, the copy module can be used to copy files &amp;#8211; and shows that files are only transferred if they are not already there:&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+$ ansible www.example.com -m copy -a &amp;quot;src=/home/liquidat/tmp/test.yml dest=/home/liquidat/text.yaml&amp;quot;&#xD;
+www.example.com | success &amp;gt;&amp;gt; {&#xD;
+    &amp;quot;changed&amp;quot;: &amp;lt;strong&amp;gt;true&amp;lt;/strong&amp;gt;, &#xD;
+    &amp;quot;dest&amp;quot;: &amp;quot;/home/liquidat/text.yaml&amp;quot;, &#xD;
+    &amp;quot;gid&amp;quot;: 500, &#xD;
+    &amp;quot;group&amp;quot;: &amp;quot;liquidat&amp;quot;, &#xD;
+    &amp;quot;md5sum&amp;quot;: &amp;quot;504e549603f616826707d60be0d9cd40&amp;quot;, &#xD;
+...&#xD;
+&#xD;
+$ ansible www.example.com -m copy -a &amp;quot;src=/home/liquidat/tmp/test.yml dest=/home/liquidat/text.yaml&amp;quot;&#xD;
+www.example.com | success &amp;gt;&amp;gt; {&#xD;
+    &amp;quot;changed&amp;quot;: &amp;lt;strong&amp;gt;false&amp;lt;/strong&amp;gt;, &#xD;
+...&#xD;
+}&#xD;
+&lt;/pre&gt;
+&lt;p&gt;In the second attempt the &amp;#8220;changed&amp;#8221; status is on &amp;#8220;false&amp;#8221;, indicating that the file was not actually changed since it was already there.&lt;/p&gt;
+&lt;h2&gt;Playbooks&lt;/h2&gt;
+&lt;p&gt;However, Ansible can be used for more than a distributed shell on steroids: configuration management and system orchestration. Both is realized in Ansible via so called &lt;a href="http://docs.ansible.com/playbooks.html"&gt;Playbooks&lt;/a&gt;. In such Yaml files all the necessary tasks are stored which either ensure a given configuration or set up a specific system. In the end the Playbooks just list the Ansible commandos and modules which could also be called via command line. However, Playbooks also offer a dependency/notification system where given tasks are only executed if other tasks did change anything. Playbooks are called with a specific command line: &lt;code&gt;ansible-playbook $PLAYBOOK.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For example, imagine a setup where you copy a file, and if that file was copied (so not there before or changed in the meantime) you need to restart sshd:&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+---&#xD;
+- hosts: www.example.com&#xD;
+  remote_user: liquidat&#xD;
+  tasks:&#xD;
+      - name: copy file&#xD;
+        copy: src=~/tmp/test.txt dest=~/test.txt&#xD;
+        notify:&#xD;
+            - restart sshd&#xD;
+  handlers:&#xD;
+      - name: restart sshd&#xD;
+        service: name=sshd state=restarted&#xD;
+        sudo: yes&#xD;
+&lt;/pre&gt;
+&lt;p&gt;As you see the host and user is configured in the beginning. There could be also host groups if needed. It is followed by the actual task &amp;#8211; copying the file. All tasks of a Playbook are usually executed. This given task definition does have a notifier: if the task is executed with a &amp;#8220;change&amp;#8221; state of &amp;#8220;true&amp;#8221;, than a &amp;#8220;handler&amp;#8221; is notified. A handler is a task which is only executed if its called for. In this case, sshd is restarted after we copied over a file.&lt;/p&gt;
+&lt;p&gt;And the output is clear as well:&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+$ ansible-playbook tmp/test.yml -K&#xD;
+sudo password: &#xD;
+&#xD;
+PLAY [www.example.com] ********************************************************* &#xD;
+&#xD;
+GATHERING FACTS *************************************************************** &#xD;
+ok: [www.example.com]&#xD;
+&#xD;
+TASK: [copy file] ************************************************************* &#xD;
+changed: [www.example.com]&#xD;
+&#xD;
+NOTIFIED: [restart sshd] ****************************************************** &#xD;
+changed: [www.example.com]&#xD;
+&#xD;
+PLAY RECAP ******************************************************************** &#xD;
+www.example.com             : ok=3    changed=2    unreachable=0    failed=0&#xD;
+&lt;/pre&gt;
+&lt;p&gt;The above example is a simple Playbook &amp;#8211; but Playbooks offer many more functions: templates, variables based on various sources like the machine facts, conditions and even looping the same set of tasks over different sets of variables. For example, if we take the copy task but loop over a set of file names, each which should have a different name on the target system:&lt;/p&gt;
+&lt;pre class="brush: plain; title: ; notranslate"&gt;&#xD;
+- name: copy files&#xD;
+  copy: src=~/tmp/{{ item.src_name }} dest=~/{{ item.dest_name }}                               &#xD;
+  with_items:                                                                                   &#xD;
+    - { src_name: file1.txt, dest_name: dest-file1.txt }                                      &#xD;
+    - { src_name: file2.txt, dest_name: dest-file2.txt }  &#xD;
+&lt;/pre&gt;
+&lt;p&gt;Also, Playbooks can include other Playbooks so you can have a set of ready-made Playbooks at your hand and combine them as you like. As you see Ansible is incredible powerful and does provide the ability to write Playbooks for very complex management tasks and system setups.&lt;/p&gt;
+&lt;h2&gt;Outlook&lt;/h2&gt;
+&lt;p&gt;Ansible is a tempting solution for configuration management since it does combine direct access with configuration management. If you have your large server data center already configured in an ansible-hosts file, you can it use for both system configuration as well as performing direct tasks. This is a big advantage compared to for example Puppet setups. Also, you can write Playbooks which you only need once in a while, store them at some place &amp;#8211; and use them for orchestration purposes. Something which is not easily available with Puppet, but very simple with Ansible. Additionally, Ansible can be used either pushing or pulling, there are tools for both, which makes it much more flexible compared to other solutions out there.&lt;/p&gt;
+&lt;p&gt;And since you can use Ansible right from the start even without writing complex recipes before the learning curve is not that steep &amp;#8211; and the adoption of Ansible is much quicker. There are already customers who use Ansible together with Puppet since Ansible is so much easier and much quicker to learn.&lt;/p&gt;
+&lt;p&gt;So in the end I can only recommend Ansible to anyone who is dealing with configuration management. It is a certainly helpful tool and even if you don&amp;#8217;t start using it it might be interesting to know how other approaches to system and configuration management do look like.&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href="http://liquidat.wordpress.com/category/business/"&gt;Business&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/debian/"&gt;Debian&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/fedora/"&gt;Fedora&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/howto/"&gt;HowTo&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/linux/"&gt;Linux&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/monitoring/"&gt;Monitoring&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/shell/"&gt;Shell&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/suse/"&gt;SUSE&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/technology/"&gt;Technology&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/thoughts/"&gt;Thoughts&lt;/a&gt;, &lt;a href="http://liquidat.wordpress.com/category/ubuntu/"&gt;Ubuntu&lt;/a&gt;  &lt;a href="http://feeds.wordpress.com/1.0/gocomments/liquidat.wordpress.com/2740/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/liquidat.wordpress.com/2740/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=liquidat.wordpress.com&amp;#038;blog=199237&amp;#038;post=2740&amp;#038;subd=liquidat&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:blogger.com,1999:blog-6072476323576899796.post-5447884251864574035</guid>
+      <title>Monday Report #3</title>
+      <author>Jens Reuterberg (jensreuterberg)</author>
+      <pubDate>Mon, 17 Feb 2014 09:12:00 GMT</pubDate>
+      <link>http://wheeldesign.blogspot.com/2014/02/monday-report-3.html</link>
+      <description>&lt;p&gt;&lt;i&gt;&lt;span style="color: #3d85c6;"&gt;In which we talk about, alpha-beta, about release methods, moodboards, colors, mockups and icon ideas. We will talk about goldstar community members and a few other things.&lt;/span&gt;&lt;/i&gt;&lt;br /&gt;&lt;i&gt;&lt;span style="color: #3d85c6;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/i&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-rqNOYWltlV8/UwE9npMsWkI/AAAAAAAAL6g/IZbZcax0Mak/s1600/rect5399b.png" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="180" src="http://4.bp.blogspot.com/-rqNOYWltlV8/UwE9npMsWkI/AAAAAAAAL6g/IZbZcax0Mak/s1600/rect5399b.png" width="320" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;span style="font-size: xx-small;"&gt;See that background, behind the "K"? You will see more of it in the future :)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;i&gt;&lt;span style="color: #3d85c6;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/i&gt;&lt;i&gt;&lt;span style="color: #3d85c6;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/i&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;Another week has flown by, and what a week it has been!&lt;/span&gt;&lt;/b&gt; We are getting closer and closer to cracking the future themes for Plasma as well as Applications visuals. Ideas for layouts are being hammered together and there is plenty of things milling around in the VDG. Consider this blog the Beta to our Alpha work. We are one step ahead of it but present things as they get nailed definitely. So what you see here is the work done the week before the last.&lt;br /&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: #3d85c6;"&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;b style="color: #3d85c6;"&gt;First off lets talk about releases. &lt;/b&gt;We all know how these things are supposed to go: some teasing and then at a given date "The Big Reveal". Not so with the next version of Plasma. One of the things that I am so completely over-the-moon about with the way the Plasma Devs are handling the release for Plasma is that it will be done incrementally. What that means is that beyond the basics - the cool backend things, some slight visual changes - the first release of Plasma wont be anything drastic. The next release of Plasma will contain a little bit more in terms of change. The one after that a little bit more.&lt;br /&gt;Why this slow pace? Because it's one thing knowing that your ideas and changes are sound and correct - another to see how we all react to them IRL. By changing bit by bit there is more room for community participation - for everyone to try them, see what they think, give feedback and suggestions and change or add to them if we have to - when there isn't ten thousand different things that are changed, hinging on each others existence to work.&lt;br /&gt;This may not be great for marketing - everyone likes to write about a big splash - but it will be an insane improvement for the community and when the choice is between those two... well you know which side of the toast our bread is buttered on. :-)&lt;br /&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;...&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;Then lets talk about community participation!&lt;/span&gt;&lt;/b&gt; &lt;a href="http://forum.kde.org/viewforum.php?f=285" target="_blank"&gt;Now you all know that there are plenty of things to take part in the forums I hope&lt;/a&gt;? Plenty of ideas waiting to be commented on, plenty of dev's looking for design help. This is one of the best easiest ways to help KDE in a very practical way. Don't be shy. Jump in and get the ball rolling if you have a great idea or better yet look at the ones who need help and we will try to get you in contact with the devs :)&lt;br /&gt;I also want to give a shout-out to one of the community participants for being an inspiration to me personally, you rock! (but who wants to be anonymous sadly)&lt;br /&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: #3d85c6;"&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;Now let's get down to the moodboard!&lt;/span&gt;&lt;/b&gt; Two weeks ago this moodboard was posted in our group as a way of describing the theme we chose before that (&lt;a href="http://wheeldesign.blogspot.se/2014/02/vdg-weekly-update-2.html" target="_blank"&gt;presented in last weeks Monday Repor&lt;/a&gt;t). Now a moodboard is a way to define and describe the theme and the emotions so that all members of a team can grasp it, find it accessible and as a center around which to communicate further about other ideas.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://wstaw.org/m/2014/02/10/moodplasma_1_1.png" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="240" src="http://wstaw.org/m/2014/02/10/moodplasma_1_1.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;The tricky bit with moodboards for something so big and complex as the Plasma Next desktop unlike say a printed publication or an ad-campaign is that you often find yourself striking too far out or being too specific - I think this one was a nice mix of it all and shows the look we're going for. Something clean, something futuristic but still bright, "hopeful and human without being too clingy" as it was described.&lt;i&gt; (from top left to bottom right - Eve from Wall-E, City Scape from mirrors edge, "Futuristic City", "Cleaner", Flat Android Icons, Still from 2001 - A Space Odyssey, A lightbulb and a Pantone Card, Still from Mirrors Edge and A redone Star Trek Federation Insignia)&lt;/i&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;...&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;Colors. What about colors?&lt;/span&gt;&lt;/b&gt; The eagle-eyed among you may notice the Pantone card in the moodboard but before you link it with the end result I should post the correct color guide.&lt;br /&gt;&lt;br /&gt;Now picking colors is a huge and tricky subject, its dangerous and involved a massive amount of debate. But when one of us (Cuan I think it was) posted the main colors to this we had a winner. The combination of greyscale hinting towards the blue side of the color scale and a stronger and lighter version of blue as main spot color played well together.&lt;br /&gt;Combine that with a broad swath of strong colors from the other sides of the color wheel to counteract the blue-grey scale and use them sparingly to create striking visual change at times - a powerful exclamation mark when needed.&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;span id="docs-internal-guid-643ecae4-3c75-8a7a-2a53-d3f25729bf55" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img height="250" src="https://lh4.googleusercontent.com/ReghDop6I4WYbPGDAYgQavemihe0hVLSk_JHh4fjFhgyJx0Y7mhm31QmCymILoxVurx9Dd0BI87JuYiq_cXTDkSYM4YbDET4Btx_n4IMCj8U1QLqL_e_SCz4wA" style="border: 0px solid transparent;" width="400" /&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;You may notice the transparency levels on the right. We will stick with those three levels of transparencies in all situations to avoid clashes and tricky details that may make: Transparencies are complex - especially in large flat work-communities with a lot of different designers and devs at play.&lt;br /&gt;Now remember that colors are tightly connected to the individual themes - this is for the two base themes that are being planned - but the colors will be used for all visuals for Plasma Next, marketing, logos and imagery, and my hope is that they will find their way into further design work within the KDE application ecosystem.&lt;br /&gt;&lt;br /&gt;There is a final tiny thing about colors - Sunburst Yellow - some have claimed that it feels "dirty" or "smudged" - but we will stick to it for now and see how everything pans out.&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;...&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;What about icons&lt;/span&gt;&lt;/b&gt;, well that's an interesting subject - we have some rather interesting news not only about Fabians systemtray icons, Acidtrays icon theme (yes a new icon theme) but also Andrew Lakes icon work. There will be more info of this next monday report.&lt;br /&gt;Another thing coming next week are details on visuals and shapes - there are some nice news coming there too :) (soo many fun things that are still secrets .... iiiih)&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;i&gt;So next time - there will be more and more community information coming along and of course next monday more about Plasma.&lt;/i&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://blogs.kde.org/4736 at http://blogs.kde.org</guid>
+      <title>A Yakuake update: Frameworks 5, Wayland, More</title>
+      <author>Eike Hein (Sho)</author>
+      <pubDate>Mon, 17 Feb 2014 01:34:57 GMT</pubDate>
+      <link>http://blogs.kde.org/2014/02/17/yakuake-update-frameworks-5-wayland-more</link>
+      <description>&lt;div class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above clearfix"&gt;&lt;h3 class="field-label"&gt;KDE Project: &lt;/h3&gt;&lt;ul class="links"&gt;&lt;li class="taxonomy-term-reference-0"&gt;&lt;a href="http://blogs.kde.org/kde-project/kde-general"&gt;KDE General&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="field field-name-body field-type-text-with-summary field-label-hidden"&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Things have been rather quiet in Yakuake land for a while. 2014 is going to shake things up, though, so it's time for a brief look at what's been going on and where things are headed next.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;br /&gt;Frameworks 5&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Not long ago I pushed an initial port of Yakuake to &lt;a href="http://dot.kde.org/2014/01/07/frameworks-5-tech-preview"&gt;Frameworks 5&lt;/a&gt;, the next generation of KDE's platform libraries, to Yakuake's git repository. The new code lives on a branch called &lt;tt&gt;frameworks&lt;/tt&gt; for now.&lt;/p&gt;
+&lt;p&gt;Yakuake on Frameworks 5 is functional and free of the use of any deprecated APIs. The port is mostly complete, too, missing just a few more touches to the first run dialog and skin handling. Here's a screenshot:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;img alt="Yakuake on Frameworks 5" src="http://www.eikehein.com/kde/blog/yakuakekf5/yakuake.png" /&gt;&lt;br /&gt;&lt;small&gt;&lt;i&gt;Ah yup: Looks no different.&lt;/i&gt;&lt;/small&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/center&gt;
+&lt;p&gt;&lt;b&gt;&lt;br /&gt;Wayland&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;One of the broader initatives the community is engaged in this year is enabling our workspaces and applications to use &lt;a href="http://en.wikipedia.org/wiki/Wayland_%28display_server_protocol%29"&gt;Wayland&lt;/a&gt;. Yakuake may just have a small role to play in that.&lt;/p&gt;
+&lt;p&gt;Historically, Yakuake's relationship with window managers has been plenty interesting. It's managed to crash several of the popular ones at one point or another; it's an unusual application with unusual behavior that exercises window manager code differently from more typical apps. More recently, it was perhaps the first non-workspace process to communicate and collaborate tightly with the compositor, asking &lt;a href="http://en.wikipedia.org/wiki/KWin"&gt;KWin&lt;/a&gt; to perform the slide-in/out animations on its behalf if available.&lt;/p&gt;
+&lt;p&gt;The latter is a model for things to come. In Wayland, application windows know intentionally little about the environment they exist in, and instead have to petition and rely on the window manager for things like positioning with no recourse. Yakuake on X11 does this legwork by itself; on Wayland, the comm protocol to the window manager will have to be rich enough to allow for equivalent results. &lt;/p&gt;
+&lt;p&gt;Having Yakuake ported and ready will allow for it to serve as a useful testcase there.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;br /&gt;General feature plans&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Yakuake's theming system has been showing its age for a while, so I'm looking to implement a replacement for it. The new system will be based on QML, taking some inspiration from KWin's Aurorae decoration engine. The result should allow themes to support anti-aliased edges and shadows, along with much more flexible control over the placement of Yakuake's UI elements. Existing themes will continue to be supported however (by way of new-format theme that knows how to load and display the old ones -- the config UI will list both types transparently in the same list, though).&lt;/p&gt;
+&lt;p&gt;The other major feature that's been a long time coming is proper support for session restore. This has mostly been held back by missing functionality in the API of the Konsole component that provides Yakuake with terminal emulation. Unfortunately that situation remains unchanged for now, but I'm still hoping to eventually get around to some Konsole hacking to satisfy Yakuake's needs there.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;br /&gt;Schedule thoughts&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Frameworks 5 uptake in distributions has been very promising so far, with several distros (I'm aware of Fedora and Kubuntu, but there are no doubt others) packaging the preview releases soon after they were announced. It's still pre-release software, though, and APIs might still change until the stable release this summer. Until it's out, the repo's master branch will therefore continue to contain the KDE 4 codebase, and there will be another maintenance release cut from it sometime soon.&lt;/p&gt;
+&lt;p&gt;Development of the new theming system will be targeted at Qt 5 and Frameworks 5, however, due to significant API changes in the new Qt Quick and QML generation. As with the next KDE 4-based release there's currently no firm date for this - Aaron makes a &lt;a href="http://aseigo.blogspot.de/2014/01/frameworks-5-timing-is-everything.html"&gt;good case&lt;/a&gt; for not rushing things - except to say it will be some time this year.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:steckdenis.be,2014-02-16:post-2014-02-16-groupedlineedit-reused-in-subsurface.html</guid>
+      <title>GroupedLineEdit Reused in&#xA0;Subsurface</title>
+      <author>Denis Steckelmacher (steckdenis)</author>
+      <pubDate>Sun, 16 Feb 2014 16:03:14 GMT</pubDate>
+      <link>http://steckdenis.be/post-2014-02-16-groupedlineedit-reused-in-subsurface.html</link>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;It has been a long time since I last blogged about the Nepomuk user-query parser that I developed during the summer. The reason is that the university required all my time. Here is a quick blog post that summarizes what happened these last&amp;nbsp;months.&lt;/p&gt;
+&lt;h1 id="merging-the-query-parser"&gt;Merging the Query&amp;nbsp;Parser&lt;/h1&gt;
+&lt;p&gt;For those who missed the news, Nepomuk has been &amp;#8220;abandoned&amp;#8221; and renamed to Baloo. The reason is that the Nepomuk developers thought that using &lt;span class="caps"&gt;RDF&lt;/span&gt; (a complete and complex system of ontologies, that require specialized databases like Virtuoso) wasn&amp;#8217;t the right thing to do in order to provide what the user want, that is to say a powerful yet lightweight search engine. &lt;span class="caps"&gt;RDF&lt;/span&gt; allows many things, but most of the users just want to look for documents matching a specific&amp;nbsp;string.&lt;/p&gt;
+&lt;p&gt;I cannot better explain the reasons, but you can read this &lt;a href="http://mail.kde.org/pipermail/nepomuk/2013-December/004858.html"&gt;mailing-list thread&lt;/a&gt; if you want more accurate&amp;nbsp;details.&lt;/p&gt;
+&lt;p&gt;What is important is that Nepomuk has been rewritten, and that breaks my user-query parser. Fortunately, the parser is pretty much self-contained, and the algorithms used don&amp;#8217;t need to change, but the way the parser provides its results to Nepomuk has changed. In Baloo, queries seem to be simpler (for what I&amp;#8217;ve seen) and are not built out of trees&amp;nbsp;anymore.&lt;/p&gt;
+&lt;p&gt;In Nepomuk, a query was a big &lt;span class="caps"&gt;AND&lt;/span&gt;, containing ORs, other ANDs and actuel comparisons. Getting every document containing &amp;#8220;test&amp;#8221; and tagged as &amp;#8220;important&amp;#8221; was done using a query like &lt;code&gt;AND(tagged_as(important), containing(test))&lt;/code&gt; (this syntax is not used anywhere in Nepomuk but represents in-memory &lt;code&gt;Nepomuk2::Term&lt;/code&gt; subclasses). In Baloo, for what I&amp;#8217;ve seen in the source code, a query is more &amp;#8220;fixed&amp;#8221;. Every query consists of search terms (&amp;#8220;test&amp;#8221; in my example) and filters (date-time filters, maybe also tags, etc). There does not seem to be any recursive data structure. Because of that, the user-query parser cannot simply convert its abstract syntax tree to a tree of terms (a very simple operation), but needs to carefully analyze the user-query in order to produce the Baloo query (or queries) that will provide the expected&amp;nbsp;results.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m still thinking about all that and I will contact the Nepomuk developers for advice, because porting the user-query parser to Baloo seems not to be that complex, and seems very&amp;nbsp;interesting.&lt;/p&gt;
+&lt;h1 id="groupedlineedit-gets-used-by-subsurface"&gt;GroupedLineEdit gets used by&amp;nbsp;Subsurface&lt;/h1&gt;
+&lt;p&gt;Free Software and its communities are full of great surprises. One of them was when Aaron Seigo &lt;a href="https://plus.google.com/+AaronSeigo/posts/Y9f1KntQVJ5"&gt;quoted me&lt;/a&gt; on Google+, or when the Nepomuk file indexer for &lt;span class="caps"&gt;MS&lt;/span&gt; Office 2003 files, that I developed in October, &lt;a href="http://commit-digest.org/issues/2013-10-20/"&gt;was mentioned&lt;/a&gt; in the &lt;span class="caps"&gt;KDE&lt;/span&gt; Commit&amp;nbsp;Digest.&lt;/p&gt;
+&lt;p&gt;Several weeks ago, just before the &lt;span class="caps"&gt;FOSDEM&lt;/span&gt;, the &lt;a href="http://subsurface.hohndel.org/"&gt;Subsurface&lt;/a&gt; team announced that the project was ported to Qt. Subsurface is a divelog program started by Linus Torvalds and now developed by a fair number of contributors, some of them being well-known kernel hackers. When Subsurface 4 was announced, I read the news (even though I don&amp;#8217;t dive, I wanted to see how a &lt;span class="caps"&gt;GTK&lt;/span&gt;+ program could be ported to Qt and what that brings as new/improved features), and I discovered a very intriguing screenshot in the user manual&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tags in Subsurface" src="http://steckdenis.be/static/images/CompletedDiveInfo.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Have you noticed that there is a &amp;#8220;Tags&amp;#8221; field? And that it contains tags highlighted in colors? When I noticed that, I thought that Linus (or someone else) had developed exactly the widget that I needed during the summer, the widget that is used to highlight query terms in user-queries, as shown in this image&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Modern GroupedLineEdit" src="http://steckdenis.be/static/images/dolphin-query-builder.png" /&gt;&lt;/p&gt;
+&lt;p&gt;I downloaded the source code of Subsurface and started to look after this widget that does exactly what I want. Finally, I found it, and I was very surprised to see that it was actually my GroupedLineEdit widget that Subsurface used! I&amp;#8217;m very pleased to see that something that took me several weeks to develop (the widget is less than 200-lines long, but I needed a great deal of time to figure out what was the nicest way to highlight text, and how to implement it properly) is used, and used in a program started by nobody else than Linus&amp;nbsp;Torvalds.&lt;/p&gt;
+&lt;p&gt;So, if anyone wants to develop something : don&amp;#8217;t hesitate to do it! Even if it is a small widget or a toy application, what you develop may be of use to someone else, and it&amp;#8217;s always a great pleasure to see that code we have developed gets used by other&amp;nbsp;developers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:blogger.com,1999:blog-4950896403024987968.post-2694210373010933827</guid>
+      <title>ModemManagerQt and NetworkManagerQt: new releases</title>
+      <author>Lamarque Souza (lamarque or lvsouza)</author>
+      <pubDate>Sat, 15 Feb 2014 17:17:32 GMT</pubDate>
+      <link>http://lamarque-lvs.blogspot.com/2014/02/modemmanagerqt-and-networkmanagerqt-new.html</link>
+      <description>&lt;p&gt;New versions of &lt;a href="https://projects.kde.org/news/253"&gt;ModemManagerQt&lt;/a&gt;&amp;nbsp;and &lt;a href="https://projects.kde.org/news/254"&gt;NetworkManagerQt&lt;/a&gt;&amp;nbsp;are out, respectively 1.0.1 and 0.9.8.1. The changes are short, just some bugs fixes and small new features.&lt;br /&gt;&lt;br /&gt;In ModemManagerQt:&lt;br /&gt;&lt;br /&gt;. fix a crash when ModemManager is restarted.&lt;br /&gt;&lt;br /&gt;In NetworkManagerQt:&lt;br /&gt;&lt;br /&gt;. add workaround for wrongly updated ActiveConnection property.&lt;br /&gt;. update doxygen documentation.&lt;br /&gt;&lt;a href="http://bugs.kde.org/329260"&gt;329260&lt;/a&gt;: avoid conditional jumps based on uninitialized values.&lt;br /&gt;. add device property to WirelessNetwork.&lt;br /&gt;. backport PrimaryConnection, ActivatingConnection and Connectivity properties.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://ruedigergad.com/?p=932</guid>
+      <title>Pebble Protocol Implementation in QML and SkippingStones UI for #SailfishOS</title>
+      <author>Ruediger Gad (rcg)</author>
+      <pubDate>Fri, 14 Feb 2014 22:32:17 GMT</pubDate>
+      <link>http://ruedigergad.com/2014/02/15/pebble-protocol-implementation-in-qml-and-skippingstones-ui-for-sailfishos/</link>
+      <description>&lt;p&gt;This is somewhat an announcement as well as a call for participation. Some time ago, I treated myself to a &lt;a href="https://getpebble.com/" target="_blank"&gt;Pebble&lt;/a&gt; smart watch. As my primary phone is a &lt;a href="http://jolla.com/" target="_blank"&gt;Jolla&lt;/a&gt; smart phone, apparently, the next &amp;#8220;logical&amp;#8221; step was to get both, Pebble and Jolla, work together.&lt;/p&gt;
+&lt;p&gt;Thereby, I had two aims. Firstly, the implementation of the Pebble protocol should be in &amp;#8220;as pure as possible&amp;#8221; plain QML. Secondly, of course, I wanted to have at least basic interaction with my smart phone like getting notifications about calls and SMS or controlling the music player.&lt;/p&gt;
+&lt;p&gt;I put the emphasis on plain QML for the protocol implementation for two reasons. On the one hand, plain QML, due to its interpreted nature, enables pretty quick hack and test cycles. On the other hand, plain QML also promises to be quite platform independent, as in, &amp;#8220;Runs on all platforms supported by Qt.&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;I used the very helpful &lt;a href="https://github.com/Hexxeh/libpebble/blob/master/pebble/pebble.py" target="_blank"&gt;libpebble&lt;/a&gt; Python implementation of the protocol as reference. Thanks to libpebble the protocol implementation was actually very much straight forward.&lt;/p&gt;
+&lt;p&gt;The current result of my experiments is &amp;#8220;SkippingStones&amp;#8221;. SkippingStones consists of a &amp;#8220;backend&amp;#8221;, i.e., the Pebble protocol implementation and a &amp;#8220;frontend&amp;#8221;, that is currently only available for SailfishOS and provides the connection to the platform dependent interfaces such as DBUS as well as a user interface.&lt;/p&gt;
+&lt;p&gt;SkippingStones is still in a very strong work-in-progress state. However, basic functionality like controlling the music player and getting notifications already works. I even succeeded in uploading watchfaces to my Pebbe via SkippingStones. SkippingStones is released under the same license terms as libpebble and is hosted on github: &lt;a href="https://github.com/ruedigergad/SkippingStones" rel="nofollow"&gt;https://github.com/ruedigergad/SkippingStones&lt;/a&gt; I uploaded an .rpm of the current state as well: &lt;a href="https://github.com/ruedigergad/SkippingStones/raw/master/dist/harbour-skippingstones-0.1-1.armv7hl.rpm" rel="nofollow"&gt;https://github.com/ruedigergad/SkippingStones/raw/master/dist/harbour-skippingstones-0.1-1.armv7hl.rpm&lt;/a&gt; In order to use the media player control, you need to also apply another patch to the installed media player QML files (in &amp;#8220;/usr/lib/qt5/qml/com/jolla/mediaplayer/AudioPlayer.qml&amp;#8221;): &lt;a href="https://github.com/ruedigergad/SkippingStones/blob/master/audioplayer_dbus.patch" rel="nofollow"&gt;https://github.com/ruedigergad/SkippingStones/blob/master/audioplayer_dbus.patch&lt;/a&gt; (See also: &lt;a href="https://together.jolla.com/question/313/add-dbus-interface-to-stock-music-player/" rel="nofollow"&gt;https://together.jolla.com/question/313/add-dbus-interface-to-stock-music-player/&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Please be aware that this is not an &amp;#8220;end-user-ready&amp;#8221; product right now. The UI as well as possibly many other parts are still pretty much unfinished and in a rough state. So please don&amp;#8217;t be disappointed if there are many things that still need to be improved or if things fail. Generally, you use SkippingStones on your own responsibility.&lt;/p&gt;
+&lt;p&gt;All participation/help for further improving SkippingStones is highly appreciated. There are many places that need some love, in the backend as well as in the frontend. Furthermore, so far there is only a SailfishOS based UI while it might be worthwhile to support more platforms as well.&lt;/p&gt;
+&lt;p&gt;PS: Just to clarify, some parts of the backend are implemented in Qt/C++. However, I tried to limit the amount of Qt/C++. The only parts written in Qt/C++ are simple adapters to allow the usage of Bluetooth and QByteArray in QML. These parts are also written without any platform dependent APIs. Thus, in general, SkippingStones should work on all platforms for which Qt5 is available.&lt;/p&gt;
+&lt;p&gt;Furthermore, backporting SkippingStones to Qt4 should also be possible without much effort. I didn&amp;#8217;t try it myself, but, off the top of my head, it might even suffice to adjust the version of the QtQuick import in the QML part.&lt;/p&gt;&lt;br /&gt;  &lt;a href="http://feeds.wordpress.com/1.0/gocomments/ruedigergad.wordpress.com/932/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/ruedigergad.wordpress.com/932/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=ruedigergad.com&amp;#038;blog=25828461&amp;#038;post=932&amp;#038;subd=ruedigergad&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://blogs.kde.org/4735 at http://blogs.kde.org</guid>
+      <title>No Licence Needed for Kubuntu Derivative Distributions</title>
+      <author>Jonathan Riddell (riddell)</author>
+      <pubDate>Fri, 14 Feb 2014 16:55:54 GMT</pubDate>
+      <link>http://blogs.kde.org/2014/02/14/no-licence-needed-kubuntu-derivative-distributions</link>
+      <description>&lt;div class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above clearfix"&gt;&lt;h3 class="field-label"&gt;KDE Project: &lt;/h3&gt;&lt;ul class="links"&gt;&lt;li class="taxonomy-term-reference-0"&gt;&lt;a href="http://blogs.kde.org/kde-project/dcop"&gt;DCOP&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="field field-name-body field-type-text-with-summary field-label-hidden"&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Early last year the Linux Mint developer told me he had been contacted by Canonical's community manager to tell him he needed to licence his use of the packages he used from Ubuntu.  Now Ubuntu is free software and as an archive admin, I spend a lot of time reviewing everything that goes into Ubuntu to ensure it has freedom in its copyright.  So I advised him to ignore the issue as being FUD.&lt;/p&gt;
+&lt;p&gt;Later last year rumours of this nonsense started appearing in the tech press so instead of writing a grumpy blog post I e-mailed the community council and said they needed to nip it in the bud and state that no licence is needed to make a derivative distribution.  Time passed, at some point Canonical changed their licence policy to be called an &lt;a href="http://www.canonical.com/intellectual-property-rights-policy"&gt;Intellectual property rights policy&lt;/a&gt; and be much more vague about any licences needed for binary packages.  Now the community council have put out a &lt;a href="http://fridge.ubuntu.com/2014/02/13/community-council-statement-on-canonical-package-licensing/"&gt;Statement on Canonical Package Licensing&lt;/a&gt; which is also extremely vague and generally apologetic for Canonical doing this.&lt;/p&gt;
+&lt;p&gt;So let me say clearly, no licence is needed to make a derivative distribution of Kubuntu.  All you need to do is remove obvious uses of the Kubuntu trademark.  Any suggestion that somehow compiling the packages causes Canonical to own extra copyrights is nonsense.  Any suggestion that there are unspecified trademarks that need a licence is untrue.  Any suggestion there is compilation copyright is irrelevant in most countries and untrue for derivatives almost by definition.  Any suggestion that the version number needs  a trademark licence is just clutching at straws.&lt;/p&gt;
+&lt;p&gt;From every school in Brazil to every computer in Munich City Council to projects like Netrunner and Linux Mint KDE we are very pleased to have derivative distributions of Kubuntu and encourage them to be made if you can't be part of the Ubuntu community for whatever reason.&lt;/p&gt;
+&lt;hr /&gt;
+In more positive news &lt;a href="http://www.markshuttleworth.com/archives/1316"&gt;Ubuntu plans to move to systemd&lt;/a&gt;.  This makes me happy, although systemd slightly scares me for its complexity and it's a shame Upstart didn't get the take up it deserved given its lead in the replace-sysv-init competition, it's not as scary as being the only major distro that didn't use it.
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:blogger.com,1999:blog-22354314.post-4613635011093602158</guid>
+      <title>systemd analysis: a personal perspective</title>
+      <author>Agustin Benito Bethencourt</author>
+      <pubDate>Fri, 14 Feb 2014 15:50:00 GMT</pubDate>
+      <link>http://toscalix.blogspot.com/2014/02/systemd-analysis-personal-perspective.html</link>
+      <description>&lt;div style="text-align: justify;"&gt;I have looked with passion the systemd case since a little more than two years ago. As some of you know my number one passion is innovation, sometimes I think than even more than freedom. From that perspective systemd is a great case for analysis.&lt;br /&gt;&lt;br /&gt;To me, systemd is the confirmation of the existence of a establishment in the Free Software space. In early stages, yes, but is already there. People that changed the world once and, after being so long part of the solution, are little by little becoming part of the problem. Also about people that joined in the late nineties or first years in the XXI century this movement and know no other reality but the one they are living in. Many of them, from the innovation perspective, are nothing but qualified followers of the first group.&lt;br /&gt;&lt;br /&gt;Do not give me wrong, I am not trying to be disrespectful or play "the smart observer" role here. I might be one of them. It is not up to me to judge this. Please take in consideration that the existence of these groups of people is nothing but the normal consequence of.... success and getting older. It is hard to scape from nature, right?&lt;br /&gt;&lt;br /&gt;As usual in these cases, not just Lennart, but many of those who supported him, also those who sponsored these efforts, has suffered all kind of attacks. Sadly not just for technical, I mean ATTACKS. Even journalists have been involved. Yes, Free Software is also mature enough to have "yellow (technical) press" associated, political and business interests and people in different communities willing to use them against anybody who threaten the current status quo.&lt;br /&gt;&lt;br /&gt;But this is something you have to be prepared to assume if you want to succeed in bringing key changes in mature environment. And Free Software is becoming a mature environment.&lt;/div&gt;&lt;div style="text-align: justify;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style="text-align: justify;"&gt;You cannot expect to change the current status quo if you are not able to assume heavy criticism. You cannot succeed any longer just by talking, trying to convince you are right from a technical level, being nice, transparent and open to get feedback. Playing as a good citizen is a must, of course, but is not enough any longer. &lt;br /&gt;&lt;br /&gt;You need to sustain your effort for a while and have enough support (yes, financial too) to fight back while keep walking in the direction you believe in. If you are not strong enough, if you are not willing to make sacrifices, if you cannot or are not able to ignore the noise, the attacks from the establishment, no matter how popular they are or were, don't try it. Try instead to innovate in unexplored areas. It is &lt;br /&gt;easier and more pleasant.&lt;br /&gt;&lt;br /&gt;But is worse for all of us in the long run, I think.&lt;br /&gt;&lt;br /&gt;To me there is a very interesting aspect to remark. Even if you want to change a pillar and you are ready to fight the dinosaurs (which is not a condition directly related with age, by the way), you need to have financial support, specially in key moments, to be able to execute your plans despite heavy criticisms. systemd would have never been successful without it, I think.&lt;br /&gt;&lt;br /&gt;I cannot judge from a technical perspective if systemd is a step forward, one of those architectural changes that we all will regret or a very expensive road before getting a good solution. This post is not about technical evaluations or predictions. This post is about me believing that Free Software is still (also) about innovation, not just in new areas, but in those aspects that brought us here too.&lt;/div&gt;&lt;div style="text-align: justify;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style="text-align: justify;"&gt;No, we are not in the finish line. No, many of those who brought us here or are relevant today are prepared to take us to the next level. As in many other industries, the main forces against evolution are internal ones.&lt;br /&gt;&lt;br /&gt;"If it works don't touch it" Or "Disrupting changes come through iterations" were popular statement among those who are not relevant any longer.... or will become. Should become.&lt;br /&gt;&lt;br /&gt;Thanks Lennart, your sponsors and supporters for succeeding.... or die trying. My respects. I hope the future of Free Software will be in the hands of people like you.&amp;nbsp; we need it or something else will replace us. Maybe that is not bad either.&lt;/div&gt;&lt;div style="text-align: justify;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style="text-align: justify;"&gt;&lt;/div&gt;&lt;div style="text-align: justify;"&gt;Two final remarks....&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Please Lennart and colleagues, make sure systemd works very  well. I do not want to eat my words in three years. There are some  people out there willing to see me swallowing them ;-)&lt;/li&gt;&lt;li&gt;I regret writing about this today instead of some months ago. Now it has been too easy.&lt;/li&gt;&lt;/ul&gt;&lt;div class="blogger-post-footer"&gt;Agustin Benito Bethencourt (Toscalix)
+KDE eV and KDE Spain member
+Spanish Blog: http://abenitobethencourt.blogspot.com
+Linkedin profile: http://es.linkedin.com/in/toscalix&lt;/div&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://blogs.fsfe.org/mario/?p=196</guid>
+      <title>Thanks for your help and please go on!</title>
+      <author>Mario Fux (unormal)</author>
+      <pubDate>Fri, 14 Feb 2014 15:48:28 GMT</pubDate>
+      <link>http://blogs.fsfe.org/mario/?p=196</link>
+      <description>&lt;p&gt;First and foremost I&amp;#8217;d like to thank all the people who already took some time and participated in the &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt; for my diploma thesis and KDE.&lt;/p&gt;
+&lt;p&gt;But it&amp;#8217;s not over yet (last chance is on 25th of February) and we still need more data and as a member of KDE I know we can do more and better. I got some feedback about the length of the &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt; and that some questions (mostly the once at the beginning of the &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt; about the 12 different tasks) are quite abstract and difficult. But please try it, try your best and take the time and brain power. The remaining part of the &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt; (after these two pages with the tasks questions) is quite easy and quickly done.&lt;/p&gt;
+&lt;p&gt;So if you already started the questionnaire and gave up then or needed to run for something else: no problem, you can reopen the questionnaire and continue where you left. And don&amp;#8217;t forget the chance to win something nice&amp;#160; &amp;#8211; but just if you complete and submit the &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And if there are any questions, feedback or you need help don&amp;#8217;t hesitate a moment to write me an email or ping me on IRC (freenode.net) as unormal.&lt;/p&gt;
+&lt;p&gt;Thanks a lot for your help and tell your fellow KDE mates about this &lt;a href="http://survey.kde.org/index.php/249736/lang-en"&gt;questionnaire&lt;/a&gt;&lt;br /&gt;
+Mario Fux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://www.kdab.com/?p=4930</guid>
+      <title>Videos from Qt DevDays 2013 &#x2013; Berlin</title>
+      <author>KDAB on Qt</author>
+      <pubDate>Fri, 14 Feb 2014 14:41:18 GMT</pubDate>
+      <link>http://www.kdab.com/videos-qt-developer-days-berlin-2013/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=videos-qt-developer-days-berlin-2013</link>
+      <description>&lt;p&gt;Finally we have all the videos from the multiple top class sessions at Qt Developer Days 2013 &lt;a href="http://www.youtube.com/playlist?list=PLizsthdRd0YyV6zOEFYog77IAPV85f7w2"&gt;uploaded here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also &lt;a href="http://devdays.kdab.com/?page_id=382"&gt;access the program here&lt;/a&gt;, with links to the awesome set of slides used during the presentations at DevDays 2013.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="http://www.kdab.com/videos-qt-developer-days-berlin-2013/" rel="nofollow"&gt;Videos from Qt DevDays 2013 &amp;#8211; Berlin&lt;/a&gt; appeared first on &lt;a href="http://www.kdab.com" rel="nofollow"&gt;KDAB&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://www.kdab.com/?p=4920</guid>
+      <title>Qt on Android London and Berlin Dates fixed &#x2013; Sign up now!</title>
+      <author>KDAB on Qt</author>
+      <pubDate>Fri, 14 Feb 2014 14:32:48 GMT</pubDate>
+      <link>http://www.kdab.com/qt-android-london-berlin-dates-fixed-sign-now/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=qt-android-london-berlin-dates-fixed-sign-now</link>
+      <description>&lt;h3&gt;Free Qt on Android Coffee and Code Sessions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Monday March 10 at BCS, London.&lt;/strong&gt; &amp;#8211; &lt;a href="https://events.bcs.org/book/975/"&gt;Sign up now!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Friday March 14 at Maritim Hotel, Berlin&lt;/strong&gt; &amp;#8211; &lt;a href="http://www.kdab.com/register-berlin-qt-android-coffee-code-session/"&gt;Sign up now!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;KDAB&amp;#8217;s BogDan Vatra, the man who ported Qt for use with Android, is coming to London and Berlin in March as part of his 3 City tour. He will conduct three hour workshops Free to Qt enthusiasts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;London:&lt;/strong&gt;&lt;br /&gt; Times: &lt;strong&gt;9am &amp;#8211; 1pm&lt;/strong&gt;&lt;br /&gt; Venue: &lt;a href="https://events.bcs.org/book/975/"&gt;&lt;strong&gt;British Computer Society&lt;/strong&gt;, Central Offices, London, WC2E 7HA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Berlin:&lt;/strong&gt;&lt;br /&gt; Times: &lt;strong&gt;08:30 &amp;#8211; 12:30&lt;/strong&gt;&lt;br /&gt; Venue: &lt;a href="http://www.kdab.com/register-berlin-qt-android-coffee-code-session/"&gt;&lt;strong&gt;The Maritim Hotel&lt;/strong&gt;, Stauffenbergstra&amp;#223;e 26, 10785 Berlin&lt;/a&gt; (near Potsdamer Platz)&lt;/p&gt;
+&lt;p&gt;Not just a simple how-to, this session will include insightful discussions on why things are the way they are, how the internals of Qt on Android work and how Qt itself is deployed on Android devices.&lt;/p&gt;
+&lt;p&gt;Participants will learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how to set up the Android development environment&lt;/li&gt;
+&lt;li&gt;how to run and deploy an application&lt;/li&gt;
+&lt;li&gt;Android specific concerns like its security model and signing packages&lt;/li&gt;
+&lt;li&gt;how to use JNI to access and use Android Java APIs from Qt and vice-versa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;BogDan will also visit Paris in April&lt;/strong&gt; (date to be announced).&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.kdab.com/register-berlin-qt-android-coffee-code-session/"&gt;Find out more about Qt on Android here&amp;#8230;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="http://www.kdab.com/qt-android-london-berlin-dates-fixed-sign-now/" rel="nofollow"&gt;Qt on Android London and Berlin Dates fixed &amp;#8211; Sign up now!&lt;/a&gt; appeared first on &lt;a href="http://www.kdab.com" rel="nofollow"&gt;KDAB&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:blogger.com,1999:blog-6072476323576899796.post-8137982837721947914</guid>
+      <title>Valentines Special - Talk is cheap</title>
+      <author>Jens Reuterberg (jensreuterberg)</author>
+      <pubDate>Fri, 14 Feb 2014 12:00:00 GMT</pubDate>
+      <link>http://wheeldesign.blogspot.com/2014/02/valentines-special-talk-is-cheap.html</link>
+      <description>&lt;p&gt;&lt;i&gt;&lt;span style="color: #3d85c6;"&gt;In which we talk shortly on Valentines Day, refer people to the forum and comment on the comments of blogs. Also a short informational about whats going on and the issues facing us.&lt;/span&gt;&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://parentables.howstuffworks.com/media/images/promos/2013/02/mainloveself.jpg" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="179" src="http://parentables.howstuffworks.com/media/images/promos/2013/02/mainloveself.jpg" width="320" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;em style="background-color: white; color: #333333; font-family: Arial, sans-serif; line-height: 20px; text-align: start;"&gt;&lt;span style="font-size: xx-small;"&gt;&lt;a href="http://www.flickr.com/photos/ngmmemuda/3819609050/" style="color: #940c16; text-decoration: none;"&gt;Juliana Coutinho&lt;/a&gt;&amp;nbsp;/ Creative Commons&lt;/span&gt;&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;I have a philosophy, I have several actually, &lt;/span&gt;&lt;/b&gt;but one that sticks out right now. Sometimes its better to just get going and do something than talk and plan for it forever. Its in action we show where we are going and its also only with some kind of result we can talk more precisely about what needs to be changed. Since it's Valentines here I like to think about it the way I met my husband. Our first date was done with skepticism from my part. I didn't know him that well, he seemed charming but I wasn't sold completely. But the only way to find out was to actually do something, to go out with him, and when he walked over Iron Square in Gothenburg towards me smiling nervously I think that was when I knew. But it was only through action, no matter how ill prepared it may have been, that we found out. It's only through risk that we gain the greatest things.&lt;br /&gt;&lt;br /&gt;So I tend to applaud action first and then talk about problems with those actions later.&lt;br /&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;...&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;... and I tend to take negative comments lightly&lt;/span&gt;&lt;/b&gt;. This may be a bit of a "uh-oh" moment for many as there is a false equivalency between "commenting" and "criticism" in Open Source which combined with the idea of the "customer" tend to wreck havoc with projects, but hear me out here:&lt;br /&gt;&lt;br /&gt;Talk is cheap, some talk is cheaper than others. Anyone can say "This sucks". It takes no skill, it offers no input and its often more damaging than the original problem.&lt;br /&gt;"Criticism", valuable criticism, is being able to not only say WHY something is bad or better yet suggest a fix, but also do it in a respectful way and a pedagogical way. If you can't even say whats wrong without resorting to rudeness and failing to properly describe it - chances are you have no idea what you're talking about anyway and nine times out of ten, your comment is a bigger problem to a project than the problem you are trying to address.&lt;br /&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;...&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;Now for those who write blogs and get the first kind of comments&lt;/span&gt;&lt;/b&gt; on looks - refer them here to &lt;a href="http://forum.kde.org/viewforum.php?f=285" target="_blank"&gt;the Visual Design Group forum&lt;/a&gt; and say "Put up or shut up". A mockup isn't magic, a written suggestion isn't Olympic level mental acrobatics and being able to publicly and in an orderly way DEFINE what it is should be done - is not a high bar to clear. If you can say "this sucks" chances are you are capable of being a mensch about it and think about WHAT sucks, HOW it sucks and how it can be FIXED so it doesn't suck.&lt;br /&gt;&lt;br /&gt;&lt;div style="text-align: center;"&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;...&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;br /&gt;&lt;b&gt;&lt;span style="color: #3d85c6;"&gt;But aside from that, whats going on with the VDG?&lt;/span&gt;&lt;/b&gt; Well for starters a majority of our designers are on Valentines Day leave (this one will too as soon as this post is done), we have a new member Andrew Lake a contributor to Bangarang and a designer of note from Seattle and things are slowly moving in the right direction!&lt;br /&gt;&lt;br /&gt;Shapes, shadows and visuals are coming in place for Plasma 2 which swallows most of our time, attempts to balance it with design work for Plasma NM has been obviously tricky but hopefully they will get some help and there are PLENTY of work posted in the forums - so write a suggestion, post a mockup - don't be shy - better to do and doubt it than don't and regret it!&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Next post will be the Monday Report and contain color choices, some motif's and our early moodboard. So stay tuned!&lt;/i&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://grulja.wordpress.com/?p=213</guid>
+      <title>Final shape of plasma-nm</title>
+      <author>Jan Grulich (grulja)</author>
+      <pubDate>Fri, 14 Feb 2014 09:57:35 GMT</pubDate>
+      <link>http://grulja.wordpress.com/2014/02/14/final-shape-of-plasma-nm/</link>
+      <description>&lt;p&gt;&lt;span style="font-size: 15px; font-style: inherit; line-height: 1.625;"&gt;We are probably in the end of our journey to improve design and usability of plasma-nm and new release is almost behind the door. There are still some small design issues in the current design, but it&amp;#8217;s almost impossible to find a designer with spare time and especially now, where everything is about Plasma 2. This is also probably the last major change for KDE 4/Plasma 1 and we should move on and focus to KDE 5/Plasma 2. Currently we are working on a new model, which is going to be same for the applet and the editor, so the editor will be more powerful. I would like to also have a new kcm, but this is for further future.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If you want to try it, you can compile &lt;a href="http://quickgit.kde.org/?p=plasma-nm.git"&gt;plasma-nm from git&lt;/a&gt; (master branch), but you also need a new version of &lt;a href="http://quickgit.kde.org/?p=libnm-qt.git"&gt;libnm-qt&lt;/a&gt; (NM/0.9.8 branch). Or if you are a Fedora user, you can install it from &lt;a href="http://copr.fedoraproject.org/coprs/jgrulich/plasma-nm/"&gt;COPR repository&lt;/a&gt;. Otherwise you will have to wait for your distro packagers or for new tarballs.&lt;/p&gt;
+&lt;p&gt;&lt;span class="embed-youtube" style="text-align: center; display: block;"&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href="http://feeds.wordpress.com/1.0/gocomments/grulja.wordpress.com/213/" rel="nofollow"&gt;&lt;img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/grulja.wordpress.com/213/" /&gt;&lt;/a&gt; &lt;img alt="" border="0" height="1" src="http://stats.wordpress.com/b.gif?host=grulja.wordpress.com&amp;#038;blog=33250494&amp;#038;post=213&amp;#038;subd=grulja&amp;#038;ref=&amp;#038;feed=1" width="1" /&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://flavio.castelli.name/2014/02/13/docker-and-opensuse-getting-closer</guid>
+      <title>Docker and openSUSE getting closer</title>
+      <author>Flavio Castelli</author>
+      <pubDate>Thu, 13 Feb 2014 09:46:00 GMT</pubDate>
+      <link>http://flavio.castelli.name/2014/02/13/docker-and-opensuse-getting-closer/</link>
+      <description>&lt;p&gt;I have some good news about Docker and openSUSE.&lt;/p&gt;
+
+&lt;p&gt;First of all the Docker package has been moved from my personal OBS project
+to the more official &lt;a href="https://build.opensuse.org/package/show?project=Virtualization&amp;amp;package=docker"&gt;Virtualization&lt;/a&gt;
+one. The next step is to get the Docker package into Factory :)&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m going to drop the &lt;code&gt;docker&lt;/code&gt; package from &lt;code&gt;home:flavio_castelli:docker&lt;/code&gt;,
+so make sure to subscribe to the &lt;code&gt;Virtualization&lt;/code&gt; repository to get latest versions of
+Docker.&lt;/p&gt;
+
+&lt;p&gt;I have also submitted some openSUSE related documentation to the official Docker
+project. If you visit the &lt;a href="https://www.docker.io/gettingstarted/#h_installation"&gt;&amp;#8220;Getting started&amp;#8221;&lt;/a&gt;
+page you will notice the familiar geeko logo. Click it to be redirected to the
+openSUSE&amp;#8217;s installation instructions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://zaufi.github.io/programming/2014/02/13/kate-c++-stuff</guid>
+      <title>Kate: Python plugins for C++ developers</title>
+      <author>Alex Turbov (zaufi)</author>
+      <pubDate>Thu, 13 Feb 2014 08:00:00 GMT</pubDate>
+      <link>http://zaufi.github.io/programming/2014/02/13/kate-c%2B%2B-stuff</link>
+      <description>&lt;p&gt;Nowadays &lt;a href="http://kate-editor.org"&gt;kate&lt;/a&gt; has a few things implemented as Python plugins that can be useful to C++ programmers. Some of them (like working w/ comments) can be used wth Python, CMake, Bash or JS code as well. To start playing w/ them one has to enable the following plugins:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="img-rounded img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/pate-plugins.png" title="Plugins to be enabled" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then take a look to P&amp;#226;t&amp;#233; menu: &lt;img class="img-rounded img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/pate-menu.png" title="Actions became available" /&gt;&lt;/p&gt;
+
+&lt;h1 id="few_words_about_working_with_comments"&gt;Few words about working with comments&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Inline comment&lt;/em&gt; means that it is placed on a line w/ code. Just like on the screenshot above. To add it to the current line use &lt;kbd&gt;Alt+D&lt;/kbd&gt;. The cursor will move to 60th (default) position and &lt;code&gt;// &lt;/code&gt; will be added. To transform it into a doxygen comment (&lt;code&gt;///&amp;lt;&lt;/code&gt;) just press one &lt;kbd&gt;/&lt;/kbd&gt; (this part works w/ &lt;a href="http://zaufi.github.io/programming/2013/11/29/kate-cppstyle-indenter"&gt;my C++ not-quite-indenter&amp;#8482;&lt;/a&gt; ;-) To configure the default position use the &lt;em&gt;Commentar plugin&lt;/em&gt; config page (take a look at the pages available at the first screenshot). Pressing on a selection will add (if possible) inline comments to every selected line.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;To move inline comment to a line above use &lt;kbd&gt;Meta+Left&lt;/kbd&gt; and &lt;kbd&gt;Meta+Right&lt;/kbd&gt; to move it back &lt;img class="img-rounded img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/inline-comment.gif" title="Inline Comment" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;The next example shows how to &lt;em&gt;Comment Block with &lt;code&gt;#if 0&lt;/code&gt;&lt;/em&gt;, &lt;em&gt;Toggle &lt;code&gt;#if0&lt;/code&gt;/&lt;code&gt;#if1&lt;/code&gt;&lt;/em&gt;, and &lt;em&gt;Remove &lt;code&gt;#if 0&lt;/code&gt;&lt;/em&gt; part &lt;img class="img-rounded img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/if0-block.gif" title="Block Comment" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Transform Doxygen Comments&lt;/em&gt; (between &lt;code&gt;/** ... */&lt;/code&gt; and &lt;code&gt;///&lt;/code&gt; forms) and &lt;em&gt;Shrink/Expand Comment Paragraph&lt;/em&gt; &lt;img class="img-rounded img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/dox.gif" title="Shrink/Expand Paragraph" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id="boost_mpllike_parameters_foldunfold"&gt;Boost MPL-like parameters fold/unfold&lt;/h1&gt;
+
+&lt;p&gt;To format template or function parameters in the boost (MPL) style, move cursor inside the parenthesis or angle brackets and use &lt;em&gt;Boost Like Format Params&lt;/em&gt; (&lt;kbd&gt;Meta+F&lt;/kbd&gt;) action from the &lt;em&gt;P&amp;#226;t&amp;#233;&lt;/em&gt; menu. Every time invoked this action will expand the nesting level. To unfold parameters use the reverse &lt;em&gt;Unformat&lt;/em&gt; (&lt;kbd&gt;Meta+Shift+F&lt;/kbd&gt;) action. &lt;img class="img-rounded img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/boost-format.gif" title="Boost Format" /&gt;&lt;/p&gt;
+
+&lt;h1 id="using__plugin"&gt;Using &lt;code&gt;expand&lt;/code&gt; plugin&lt;/h1&gt;
+
+&lt;p&gt;Since long time ago &lt;del&gt;in a galaxy far, far away&lt;/del&gt; P&amp;#226;t&amp;#233; had the &lt;code&gt;expand&lt;/code&gt; plugin. The (initial) idea behind it was quite simple: a user writes a function which returns a string to be inserted into the document (by means of an &lt;em&gt;Expand&lt;/em&gt; action) instead of the corresponding function name under the cursor. Expand functions may have parameters. Running in a context of embedded Python, these functions may access kate&amp;#8217;s API. There is however another benefit - this still is a fully functional Python with a lot of third party libraries.&lt;/p&gt;
+
+&lt;h2 id="trivial_example"&gt;Trivial example&lt;/h2&gt;
+
+&lt;p&gt;The &amp;#8220;Hello World&amp;#8221; demo function is as simple as&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="python"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hi&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;'Hello from expand plugin'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To make this expand available put this function into a file named after a MIME type, where &lt;code&gt;/&lt;/code&gt; replaced with &lt;code&gt;_&lt;/code&gt;. For example use &lt;code&gt;~/.kde4/share/apps/kate/pate/expand/text_html.expand&lt;/code&gt; to make it available in a HTML documents or &lt;code&gt;text_x-python.expand&lt;/code&gt; for Python source code.&lt;/p&gt;
+
+&lt;p&gt;Then open a document with a corresponding MIME type, add &lt;code&gt;hi&lt;/code&gt; text and press &lt;kbd&gt;Ctrl+E&lt;/kbd&gt; (default) shortcut &amp;#8211; &lt;code&gt;hi&lt;/code&gt; will be replaced w/ &lt;code&gt;Hello from expand plugin&lt;/code&gt; text.&lt;/p&gt;
+
+&lt;p&gt;Lets rewrite the code a little and introduce an optional parameter:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="python"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hi&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;'Hello {}'&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="s"&gt;'anonymous'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To pass a parameter type &lt;code&gt;hi(John)&lt;/code&gt; + &lt;kbd&gt;Ctrl+E&lt;/kbd&gt;. Note, that the expand function may have positional and named parameters, just like any other ordinary python function.&lt;/p&gt;
+
+&lt;h2 id="level_2_templating_templates"&gt;Level 2: Templating templates&lt;/h2&gt;
+
+&lt;p&gt;Kate has a builtin &lt;a href="http://api.kde.org/4.x-api/applications-apidocs/kate/ktexteditor/html/classKTextEditor_1_1TemplateInterface.html#a03b041eaf934e8ddddfe922bda64d4aa"&gt;template engine&lt;/a&gt;. Snippets and &lt;a href="http://docs.kde.org/stable/en/applications/kate/kate-application-plugin-filetemplate.html"&gt;file templates&lt;/a&gt; use it. Now, &lt;code&gt;expand&lt;/code&gt; can use it as well :) Yeah, the string &lt;code&gt;'Hello {}'&lt;/code&gt; can be considered as a level 1 template &amp;#8211; a &lt;code&gt;name&lt;/code&gt; parameter will be substituted into it. The &lt;em&gt;level 2&lt;/em&gt; is to allow to edit it after expansion, just like with the snippets plugin (yeah, it is actually a plugin ;-). All you need is to return a string with an &lt;em&gt;editable field&lt;/em&gt;, i.e. smth like &lt;code&gt;'Hello ${name:John}'&lt;/code&gt; &amp;#8211; here is an editable field &lt;code&gt;name&lt;/code&gt; with a &amp;#8220;predefined&amp;#8221; value &lt;code&gt;John&lt;/code&gt; which is an actual parameter to the expand function &lt;code&gt;hi&lt;/code&gt; ;-) Also we ought to tell the expand plugin that the result string must be inserted into the document via &lt;code&gt;KTexeEditor::TemplateInterface&lt;/code&gt;, so we use a Python decorator &lt;code&gt;postprocess&lt;/code&gt; from the module &lt;code&gt;expand&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="python"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;expand&lt;/span&gt;
+
+&lt;span class="nd"&gt;@expand.postprocess&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;hi&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;'Hello ${{name:{}}}'&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="s"&gt;'anonymous'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This way a partly editable piece of code can be inserted! Yeah, right, just like these snippets from a plugin&amp;#8230; But wait! &lt;em&gt;&amp;#8220;Why the heck we&amp;#8217;ve just reinvented the wheel?&amp;#8221;&lt;/em&gt; &amp;#8211; one may ask ;-) The benefit is that we can return &lt;strong&gt;any template we want!&lt;/strong&gt; &amp;#8211; i.e. not just a static text with a few editable holes (which is what a &amp;#8220;classic&amp;#8221; snippet is)! What to return can be (trans)formed according to the expansion function parameters&amp;#8230; and this is a &lt;strong&gt;real&lt;/strong&gt; advantage over snippets! :-) Still do not believe? Here is a &lt;em&gt;real world example&lt;/em&gt;: lets write an expansion function to insert structure definitions to C++ code (it doesn&amp;#8217;t use editable fields for simplicity):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="python"&gt;&lt;span class="n"&gt;_BRIEF_DOC_TPL&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'''&lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="s"&gt;/**&lt;/span&gt;
+&lt;span class="s"&gt; * &lt;/span&gt;&lt;span class="se"&gt;\\&lt;/span&gt;&lt;span class="s"&gt;brief Struct &lt;/span&gt;&lt;span class="se"&gt;\\&lt;/span&gt;&lt;span class="s"&gt;c {0}&lt;/span&gt;
+&lt;span class="s"&gt; */'''&lt;/span&gt;
+
+&lt;span class="n"&gt;_TEMPLATE_PARAMS_TPL&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'''&lt;/span&gt;
+&lt;span class="s"&gt;template &amp;lt;{1}&amp;gt;'''&lt;/span&gt;
+
+&lt;span class="n"&gt;_STRUCT_BODY_TPL&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'''&lt;/span&gt;
+&lt;span class="s"&gt;struct {0}&lt;/span&gt;
+&lt;span class="s"&gt;{{&lt;/span&gt;
+&lt;span class="s"&gt;}};&lt;/span&gt;
+&lt;span class="s"&gt;'''&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;st&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;templateParams&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;params&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;templateParams&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;_BRIEF_DOC_TPL&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;_TEMPLATE_PARAMS_TPL&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;_STRUCT_BODY_TPL&lt;/span&gt;
+        &lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'typename '&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s"&gt;', typename '&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;templateParams&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;template&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;_BRIEF_DOC_TPL&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;_STRUCT_BODY_TPL&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;template&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This pretty simple (and quite short) function can do something, that snippets &lt;strong&gt;just can&amp;#8217;t!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="c++"&gt;&lt;span class="c1"&gt;// st(test) expands to&lt;/span&gt;
+
+&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; * \brief Struct \c test&lt;/span&gt;
+&lt;span class="cm"&gt; */&lt;/span&gt;
+&lt;span class="k"&gt;struct&lt;/span&gt; &lt;span class="n"&gt;test&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+
+
+&lt;span class="c1"&gt;// but st(templated_test, T, U) expands to&lt;/span&gt;
+
+&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; * \brief Struct \c templated_test&lt;/span&gt;
+&lt;span class="cm"&gt; */&lt;/span&gt;
+&lt;span class="k"&gt;template&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="k"&gt;typename&lt;/span&gt; &lt;span class="n"&gt;T&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;typename&lt;/span&gt; &lt;span class="n"&gt;U&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="k"&gt;struct&lt;/span&gt; &lt;span class="n"&gt;templated_test&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The only mandatory parameter (the first one) is a structure name to insert. The rest are optional, if present they are turned into template parameters&amp;#8230; That is how &lt;code&gt;st&lt;/code&gt; function looked like before KDE SC 4.13.&lt;/p&gt;
+
+&lt;p&gt;But soon after trying to use the built-in Python&amp;#8217;s &lt;code&gt;format&lt;/code&gt; function with &amp;#8220;template&amp;#8221; strings intensively, I realized that it is time to use a real &lt;em&gt;template engine&lt;/em&gt; ;-)&lt;/p&gt;
+
+&lt;h2 id="level_3_metatemplates"&gt;Level 3: Metatemplates&lt;/h2&gt;
+
+&lt;p&gt;Template engines are widely used in web programming to split &lt;em&gt;business logic&lt;/em&gt; from a &lt;em&gt;representation&lt;/em&gt;. One of the famous for Python is &lt;a href="http://jinja.pocoo.org/"&gt;jinja&lt;/a&gt;. Yep, it is not an all-inclusive-framework&amp;#8230; just a template engine ;-) and now we can use it with the &lt;code&gt;expand&lt;/code&gt; plugin.&lt;/p&gt;
+
+&lt;p&gt;Lets rewrite the structure expansion function using jinja templates:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="python"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;expand&lt;/span&gt;
+
+&lt;span class="nd"&gt;@expand.jinja&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'struct.cpp.tpl'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nd"&gt;@expand.postprocess&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;st&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;templateParams&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;'name'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'template_params'&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;templateParams&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Yeah, that&amp;#8217;s it! :-) Just return a Python &lt;em&gt;dictionary&lt;/em&gt; with arbitrary keys. These keys will be used in a template file later, so how to name them is up to you. The representation (template) file (&lt;code&gt;struct.cpp.tpl&lt;/code&gt;), mentioned in the &lt;code&gt;@expand.jinja&lt;/code&gt; decorator call, must be placed in a &lt;code&gt;${KDEDIR}/apps/kate/pate/expand/templates/&lt;/code&gt; dir, &amp;#8220;near&amp;#8221; the corresponding &lt;code&gt;.expand&lt;/code&gt; plugin file. .&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/**
+ * \brief Struct /*&amp;lt; name | editable &amp;gt;*/
+ */
+/*% if template_params %*/
+template &amp;lt;
+    /*% for tp in template_params %*/
+        /*% if not loop.first %*/, /*% endif %*/typename /*&amp;lt; tp | editable &amp;gt;*/
+    /*% endfor %*/
+  &amp;gt;
+/*% endif %*/
+struct /*&amp;lt; name | editable(active=True) &amp;gt;*/
+{
+    ${cursor}
+};
+//# kate: hl C++; remove-trailing-spaces false;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/*&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;*/&lt;/code&gt; open/close sequences to substitute a &lt;a href="http://jinja.pocoo.org/docs/templates/#variables"&gt;variable&lt;/a&gt; &amp;#8211; yeah, one of the keys in a dictionary, returned by the expand function&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;/*%&lt;/code&gt; and &lt;code&gt;%*/&lt;/code&gt; open/close sequence for &lt;a href="http://jinja.pocoo.org/docs/templates/#list-of-control-structures"&gt;jijna control tags&lt;/a&gt; (like &lt;code&gt;if&lt;/code&gt;, &lt;code&gt;endif&lt;/code&gt;, &lt;code&gt;for&lt;/code&gt;, &lt;code&gt;endfor&lt;/code&gt;)&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;//#&lt;/code&gt; is a &lt;em&gt;short&lt;/em&gt; or &lt;em&gt;single-line&lt;/em&gt; form of a comment inside a template file&lt;/li&gt;
+
+&lt;li&gt;next, one custom &lt;a href="http://jinja.pocoo.org/docs/templates/#filters"&gt;filter&lt;/a&gt; is used: &lt;code&gt;editable&lt;/code&gt; &amp;#8211; to transform a value of a variable (key) into an editable &lt;code&gt;KTE::TemplateInterface&lt;/code&gt; field after the snippet gets inserted. Also note that the structure name is present both in the comment and in the &lt;code&gt;struct&lt;/code&gt; declaration line, but only the second one will be &amp;#8220;editable&amp;#8221;, the other &amp;#8220;copies&amp;#8221; are just &lt;em&gt;mirrors&lt;/em&gt; in terms of &lt;code&gt;KTE::TemplateInterface&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;everything else, i.e. a text out of open/close sequences, is just a text to be rendered and inserted into a document&lt;/li&gt;
+
+&lt;li&gt;both open and close sequences are chosen for a reason: since it is a template for the C++ code, it would be nice to have some highlighting and the chosen sequences are subsets of plain C comments ;-) Surely, it can be configured for other languages as well&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;del&gt;To reduce syntactic noise&lt;/del&gt; For demonstration purposes I've removed &lt;a href="http://jinja.pocoo.org/docs/templates/#whitespace-control"&gt;whitespace control&lt;/a&gt; 
+characters from jinja tags.
+&lt;/p&gt;
+&lt;p&gt;Here are a couple more decorators defined in the &lt;code&gt;expand&lt;/code&gt; module for use by expand functions: &lt;code&gt;@expand.description&lt;/code&gt; and &lt;code&gt;@expand.details&lt;/code&gt;. Both accept a string to be displayed in a completion popup. The first one is a short description. The second one is the &lt;em&gt;details&lt;/em&gt; (or usage) text accessible by pressing an &lt;kbd&gt;Alt&lt;/kbd&gt; key for the selected completion item. Because most of the completions are really short names, completions will not appear in automatic mode, so in order to see them, one has to bring up this popup manually. There are a few expansion functions available for C++ code out-of-the-box. The most complicated one (but powerful compared to trivial snippets) is &lt;code&gt;cl&lt;/code&gt;. It is capable to generate template or non-template classes, possibly with a constructor with zero (default) or more argumentis, maybe with defaulted or deleted copy and/or move constructor and/or assign operator, maybe with a virtual destructor, where the class name and the possible template and/or constructor parameters are (post)editable fields. All parameters, and also the expand function&amp;#8217;s name should be really short to reduce the typing effort and be memorizable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class="img-rounded img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/cl-completion.png" title="Expand Functions Completions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;One example is worth more than 1K words&amp;#8230; lets generate a class with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;template parameter &lt;code&gt;Iter&lt;/code&gt; followed by &lt;code&gt;T0&lt;/code&gt;, &lt;code&gt;T1&lt;/code&gt;, &lt;code&gt;T2&lt;/code&gt;, &lt;code&gt;T3&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;default constructor&lt;/li&gt;
+
+&lt;li&gt;constructor accepting two parameters&lt;/li&gt;
+
+&lt;li&gt;disabled copy constructor&lt;/li&gt;
+
+&lt;li&gt;defaulted move constructor&lt;/li&gt;
+
+&lt;li&gt;and virtual destructor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="c++"&gt;&lt;span class="c1"&gt;// cl(some,@c,c2,-cc,@mc,vd,t,Iter,T0..3)&lt;/span&gt;
+&lt;span class="c1"&gt;// the result is:&lt;/span&gt;
+
+&lt;span class="cm"&gt;/**&lt;/span&gt;
+&lt;span class="cm"&gt; * \brief Class \c some&lt;/span&gt;
+&lt;span class="cm"&gt; */&lt;/span&gt;
+&lt;span class="k"&gt;template&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="k"&gt;typename&lt;/span&gt; &lt;span class="n"&gt;Iter&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;typename&lt;/span&gt; &lt;span class="n"&gt;T0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;typename&lt;/span&gt; &lt;span class="n"&gt;T1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;typename&lt;/span&gt; &lt;span class="n"&gt;T2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;typename&lt;/span&gt; &lt;span class="n"&gt;T3&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;some&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="nl"&gt;public:&lt;/span&gt;
+    &lt;span class="c1"&gt;/// Default constructor&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="c1"&gt;/// Make an instance using given parameters&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;param0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;param1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="c1"&gt;/// Copy constructor&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;delete&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="c1"&gt;/// Copy assign&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="k"&gt;operator&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;delete&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="c1"&gt;/// Move constructor&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="c1"&gt;/// Move assign&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="k"&gt;operator&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="c1"&gt;/// Destroy an instance of some&lt;/span&gt;
+    &lt;span class="k"&gt;virtual&lt;/span&gt; &lt;span class="o"&gt;~&lt;/span&gt;&lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I will not go into details about other functions &amp;#8211; it is easy enough to read the descriptions/sources and play with them. But I have one more final &lt;del&gt;damn cool&lt;/del&gt; feature to tell about ;-)&lt;/p&gt;
+
+&lt;h2 id="level_80_god_mode"&gt;Level 80: God Mode&lt;/h2&gt;
+
+&lt;p&gt;This feature came into my mind after reminiscing &amp;#171;Mortal Combat&amp;#187; and/or &amp;#171;Doom&amp;#187;. The way to use it came from these games: one has to press the &lt;strong&gt;exact&lt;/strong&gt; key sequence like cheat codes in a game ;-) The &lt;code&gt;expand&lt;/code&gt; plugin tracks single key press events and if it finds a &lt;del&gt;cheat&lt;/del&gt; magic code among the last consequently pressed keys, it will replace it with a result.&lt;/p&gt;
+&lt;div class="alert alert-info"&gt;
+&lt;h4&gt;Important Usage Notes&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt; 
+        every magic sequence starts and ends with a semicolon 
+    &lt;/li&gt;
+    &lt;li&gt;
+        if you type something wrong, &lt;strong&gt;you can't "fix" it&lt;/strong&gt; with cursor movement keys
+        + delete/backspace keys!
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;you have to type &amp;#171;cheat codes&amp;#187; without "errors" from start to end&lt;/strong&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        so remove the wrong text and start over again&amp;#8230; repeat until you can type them as if it were an unconditioned reflex ;-)
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;To add your own &lt;em&gt;dynamic expand function&lt;/em&gt; one has to use the &lt;code&gt;@expand.dynamic&lt;/code&gt; decorator, which accepts a compiled regular expression. If the latter matches the typed key sequence, a magic function will be executed and passed two parameters: a source &amp;#8220;magic&amp;#8221; sequence (string) and a result of &lt;code&gt;re.search()&lt;/code&gt; (which is some &lt;a href="http://docs.python.org/3/library/re.html?highlight=re.search#match-objects"&gt;match object&lt;/a&gt;). Here is an example of that kind of function to expand an &lt;code&gt;enum&lt;/code&gt; definition:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;code class="python"&gt;&lt;span class="nd"&gt;@expand.dynamic&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'^e(?P&amp;lt;is_class&amp;gt;c)?(?P&amp;lt;has_type&amp;gt;:)?'&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nd"&gt;@expand.jinja&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'enum.cpp.tpl'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nd"&gt;@expand.postprocess&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;__dynamic_enum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;params&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;
+    &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'is_class'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'is_class'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+    &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'has_type'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;match&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;group&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'has_type'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;is&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Yeah, it is quite similar to the &amp;#8220;usual&amp;#8221; (jijna templated) functions except for a one more decorator ;-)&lt;/p&gt;
+
+&lt;p&gt;Below is a list of available dynamic snippets for C++. Every item starts with a simplified graphic image of a regex (for visualization and better remembering ;-) that is used to match that snippet.&lt;/p&gt;
+
+&lt;h3 id="_synopsis"&gt;&lt;code&gt;;cl;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/cl.svg" title=";cl; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Insert a &lt;code&gt;class&lt;/code&gt; declaration. Depending on the options it is capable to add a default, parameterized, copy, move constructors and/or destructor. Also the class can be templated with a desired number of parameters.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;;clcd;&lt;/code&gt; class with default constructor and destructor&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;clc2;&lt;/code&gt; class with constructor with 2 parameters&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;clc1@cc@mc;&lt;/code&gt; class with &amp;#8220;conversion&amp;#8221; constructor (single parameter), defaulted copy and move constructor/assign&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;cl@mv-cc;&lt;/code&gt; class with defaulted move constructor/assign and delete copy constructor/assign&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;clt2vd;&lt;/code&gt; class with two template parameters and a virtual destructor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="_synopsis_2"&gt;&lt;code&gt;;e;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/e.svg" title=";e; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;;e;&lt;/code&gt; insert C++03 enum declaration&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;ec;&lt;/code&gt; insert C++11 strong typed enum declaration&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;ec:;&lt;/code&gt; insert C++11 strong typed enum declaration with the type specified&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="_synopsis_3"&gt;&lt;code&gt;;fn;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/fn.svg" title=";fn; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Insert a function declaration or definition, if a dynamic snippet ends with &lt;code&gt;{&lt;/code&gt; character. Function may have runtime and/or template parameters, as well as various modifiers.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;;fnt1;&lt;/code&gt; &lt;code&gt;void&lt;/code&gt; function with one template parameter&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;fn2s;&lt;/code&gt; function with a &lt;code&gt;static&lt;/code&gt; modifier and 2 parameters&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;fn1vfoc;&lt;/code&gt; &lt;code&gt;virtual&lt;/code&gt; function with 1 parameter and &lt;code&gt;final&lt;/code&gt;, &lt;code&gt;override&lt;/code&gt; and &lt;code&gt;const&lt;/code&gt; modifiers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="_synopsis_4"&gt;&lt;code&gt;;for;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/for.svg" title=";for; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Generate a &lt;code&gt;for&lt;/code&gt; statement with various flavors. It is capable to expand into a range-based &lt;code&gt;for&lt;/code&gt; or more &amp;#8220;traditional&amp;#8221; iterator-based. The latter can use either C++03 or C++11 semantics &amp;#8211; i.e. when &lt;code&gt;begin()&lt;/code&gt; is a member or a free function, possibly matched by ADL. The type for the range-based &lt;code&gt;for&lt;/code&gt; can be &lt;code&gt;const&lt;/code&gt; and/or &lt;code&gt;ref&lt;/code&gt;/&lt;code&gt;ref-ref&lt;/code&gt; qualified.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;;fa;&lt;/code&gt; range-based &lt;code&gt;for&lt;/code&gt; with the &lt;code&gt;auto&lt;/code&gt; type and no body&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;fa&amp;amp;&amp;amp;{rng;&lt;/code&gt; range-based &lt;code&gt;for&lt;/code&gt; with &lt;code&gt;auto&amp;amp;&amp;amp;&lt;/code&gt; type over some &lt;code&gt;rng&lt;/code&gt; and an empty body&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;fori3c{var;&lt;/code&gt; loop using &lt;code&gt;const_iterators&lt;/code&gt; and C++03 syntax over &lt;code&gt;var&lt;/code&gt; container&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="_synopsis_5"&gt;&lt;code&gt;;ns;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/ns.svg" title=";ns; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Generate an anonymous or named (possibly nested) namespace.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;;ns;&lt;/code&gt; insert anonymous namespace&lt;/li&gt;
+
+&lt;li&gt;&lt;code&gt;;nskate::details;&lt;/code&gt; insert a &lt;code&gt;kate&lt;/code&gt; namespace and one nested &lt;code&gt;details&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="_synopsis_6"&gt;&lt;code&gt;;st;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/st.svg" title=";st; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Generate a simple &lt;code&gt;struct&lt;/code&gt; possibly with a given number of template parameters.&lt;/p&gt;
+
+&lt;h3 id="_synopsis_7"&gt;&lt;code&gt;;sw;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/sw.svg" title=";sw; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Generate a &lt;code&gt;switch&lt;/code&gt; statement with a desired number of &lt;code&gt;case&lt;/code&gt; statements and possibly with a &lt;code&gt;default&lt;/code&gt; one.&lt;/p&gt;
+
+&lt;h3 id="_synopsis_8"&gt;&lt;code&gt;;try;&lt;/code&gt; Synopsis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/try.svg" title=";try; Synopsis" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Insert a &lt;code&gt;try&lt;/code&gt; block with a desired number of &lt;code&gt;catch&lt;/code&gt; blocks and possible a &lt;code&gt;catch (...)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id="dynamic_snippets_short_demo"&gt;Dynamic Snippets Short Demo&lt;/h3&gt;
+
+&lt;p&gt;&lt;img class="img-responsive" src="http://zaufi.github.io/assets/images/kate.cpp/iddqd.gif" title=";try; Synopsis" /&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://www.hdevalence.ca/blog/2014-02-13-fun-with-ngrams-part-ii-tightly-packed-tries</guid>
+      <title>Fun with n-grams, part 2: tightly packed tries</title>
+      <author>Henry de Valence (hdevalence)</author>
+      <pubDate>Thu, 13 Feb 2014 00:00:00 GMT</pubDate>
+      <link>http://www.hdevalence.ca/blog/2014-02-13-fun-with-ngrams-part-ii-tightly-packed-tries</link>
+      <description>&lt;p&gt;Follow-up to &lt;a href="http://www.hdevalence.ca/blog/2014-02-05-fun-with-the-google-ngrams-data"&gt;part 1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last time, I talked a little bit about an implementation of a &lt;a href="https://en.wikipedia.org/wiki/Trie"&gt;trie&lt;/a&gt; to store frequency information about n-grams. The problem is that the na&amp;#239;ve implementation of a trie is much more compact than the source data, but still not small enough.&lt;/p&gt;
+&lt;p&gt;One approach to dealing with this problem is to do evil bit-twiddling hacks to reduce the size, but ultimately, this just gives you worse code and little real benefit.&lt;/p&gt;
+&lt;h2 id="aside-a-bit-of-information-theory"&gt;Aside: a bit of information theory&lt;/h2&gt;
+&lt;p&gt;In information theory, the &lt;a href="https://en.wikipedia.org/wiki/Shannon_entropy"&gt;&lt;em&gt;entropy&lt;/em&gt;&lt;/a&gt;, also called &lt;em&gt;Shannon entropy&lt;/em&gt; after &lt;a href="https://en.wikipedia.org/wiki/Claude_Shannon"&gt;Claude Shannon&lt;/a&gt;, is a measure of the information content of a random variable.&lt;/p&gt;
+&lt;p&gt;Information theory is pretty interesting, but for our purposes we&amp;#8217;ll just consider two facts. First, if we have a random variable that takes values in an alphabet of size &lt;span class="math"&gt;\(n\)&lt;/span&gt;, then the entropy is maximized by a uniform distribution and here the entropy is &lt;span class="math"&gt;\(\lg n\)&lt;/span&gt; bits. Second, &lt;a href="https://en.wikipedia.org/wiki/Shannon%27s_source_coding_theorem"&gt;Shannon&amp;#8217;s source coding theorem&lt;/a&gt; tells us that, asymptotically speaking, the best compression rate possible is the entropy.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;#8217;s think about the space complexity of a na&amp;#239;ve tree data structure, where we number all of the vertices, and store for each vertex a list of its children. For &lt;span class="math"&gt;\(n\)&lt;/span&gt; vertices, this representation takes &lt;span class="math"&gt;\(\Omega(n\log n)\)&lt;/span&gt; bits. But suppose that our vertices are unlabeled. Let &lt;span class="math"&gt;\(r(n)\)&lt;/span&gt; be the number of unlabeled trees on &lt;span class="math"&gt;\(n\)&lt;/span&gt; vertices with a specified root vertex (&lt;a href="https://oeis.org/A000081"&gt;OEIS:A000081&lt;/a&gt;). Then, as &lt;span class="math"&gt;\(n \rightarrow \infty\)&lt;/span&gt;, &lt;span class="math"&gt;\[
+r(n) \sim D \alpha^n / n^{3/2},
+\]&lt;/span&gt; where &lt;span class="math"&gt;\(D = 0.439\ldots\)&lt;/span&gt; and &lt;span class="math"&gt;\(\alpha = 2.95\ldots\)&lt;/span&gt; are constants, so if we simply numbered these and used the number to identify the tree, we could use only &lt;span class="math"&gt;\[
+\log r(n) = 2n - \Theta(\log n)
+\]&lt;/span&gt; bits. Obviously, this isn&amp;#8217;t a practical data structure (how can you perform tree operations on a number), but the point is that the upper bound on the most compact representation is actually linear. There&amp;#8217;s a big gap between linear and &lt;span class="math"&gt;\(n\log n\)&lt;/span&gt;, so it&amp;#8217;s an interesting question to ask how we could have practical succint trees. For more on this, take a look at this paper, &lt;a href="http://www.dcc.uchile.cl/~gnavarro/ps/alenex10.pdf"&gt;&lt;em&gt;Succinct Trees in Practice&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The point, of course, isn&amp;#8217;t that we should expect to get all the way down to sub-linear space complexity (in fact, if we want to label nodes with up to &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt; different labels, we need an additional &lt;span class="math"&gt;\(O(n\log \sigma)\)&lt;/span&gt; bits for that), but just that we shouldn&amp;#8217;t be surprised if we can do much better than a na&amp;#239;ve approach.&lt;/p&gt;
+&lt;h2 id="tightly-packed-tries"&gt;Tightly packed tries&lt;/h2&gt;
+&lt;p&gt;It turns out that this problem has been thought about before: for instance, there&amp;#8217;s a 2009 paper by Germann, Joanis, and Larkin, called &lt;a href="http://www.aclweb.org/anthology/W/W09/W09-1505.pdf"&gt;&lt;em&gt;Tightly Packed Tries: How to Fit Large Models in Memory, and Make them Load Fast, Too&lt;/em&gt;&lt;/a&gt;. I implemented their data structure, which encodes the nodes in depth-first order as follows. For each node, write its frequency in &lt;a href="http://en.wikipedia.org/wiki/LEB128"&gt;LEB128&lt;/a&gt;, then write the frequency of its children, also in base-128. If it is not a leaf node, then we have already written all of its children, since the encoding is depth-first, so we can compute the byte offset of the child node from the current node. Finally, we write a list of (key, offset) pairs, with an index size in front so we know when the index ends.&lt;/p&gt;
+&lt;p&gt;This is maybe a little confusing, but there&amp;#8217;s an annotated version of the binary format for a simple example &lt;a href="https://raw.github.com/hdevalence/wordgen/d72c794a5ffd2d1965fd847230c4366d47044b78/dog-binary-dump.txt"&gt;here&lt;/a&gt; that makes it more clear.&lt;/p&gt;
+&lt;p&gt;The TPT data structure is basically the same as the original trie structure: you have nodes, which store some frequency counts, and a list of child nodes. But it&amp;#8217;s much more efficient, for two reasons.&lt;/p&gt;
+&lt;p&gt;The first is the use of a variable-length encoding for integers. &lt;a href="http://en.wikipedia.org/wiki/Zipf's_law"&gt;Zipf&amp;#8217;s Law&lt;/a&gt; is the observation that much data in linguistics and other sciences follows a power-law distribution. From Wikipedia: &amp;#8220;Zipf&amp;#8217;s law states that given some corpus of natural language utterances, the frequency of any word is inversely proportional to its rank in the frequency table. Thus the most frequent word will occur approximately twice as often as the second most frequent word, three times as often as the third most frequent word, etc.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;The LEB128 code has a slight overhead: 1 bit per byte. But the vast majority of the frequency counts will be small, with only a few large numbers, so it&amp;#8217;s much more efficient.&lt;/p&gt;
+&lt;p&gt;The second reason is that instead of storing pointers to the child nodes, we store relative byte offsets, which are LEB128-encoded. By using relative addressing instead of absolute addressing, the numbers tend to be smaller, since we usually write child nodes close to their parents in the file. Smaller numbers mean fewer bytes written. Moreover, relative offsets mean that we don&amp;#8217;t need to put things in physical memory: to deal with large data sets, just &lt;code&gt;mmap&lt;/code&gt; and call it a day.&lt;/p&gt;
+&lt;p&gt;In the toy example I linked, we write the whole trie in 53 bytes, instead of 280, so it&amp;#8217;s more than five times smaller. For a bigger data set, like the English 1-million 2-grams, writing the trie this way takes 710 MB, compared to about 7 GB with the previous method (the original data set is ~80 GB).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://blog.tenstral.net/?p=1471</guid>
+      <title>AppStream/Listaller FOSDEM slides</title>
+      <author>Matthias Klumpp (ximion)</author>
+      <pubDate>Wed, 12 Feb 2014 19:21:54 GMT</pubDate>
+      <link>http://blog.tenstral.net/2014/02/appstreamlistaller-fosdem-slides.html</link>
+      <description>&lt;p&gt;FOSDEM is over, and it has been a great time! I talked to many people (thanks to full devrooms &lt;img alt=";-)" class="wp-smiley" src="http://blog.tenstral.net/wp-includes/images/smilies/icon_wink.gif" /&gt;  Graph Databases and Config management was crazy, JavaScript as well&amp;#8230;) and there might be some cool new things to come soon, which we discussed there &lt;img alt=":-)" class="wp-smiley" src="http://blog.tenstral.net/wp-includes/images/smilies/icon_smile.gif" /&gt;&lt;br /&gt;
+I also got some good and positive feedback on the projects I work on, and met many people from Debian, Kubuntu, KDE and GNOME (haven&amp;#8217;t seen some of them for almost 3 years) &amp;#8211; one of the best things of being at FOSDEM is, that you not only see people &amp;#8220;of your own kind&amp;#8221; &amp;#8211; for example, for me as Debian developer it was great to see Fedora people and discuss things with them, something which rarely happens at Debian conferences. Also, having GNOME and KDE closely together again (litterally, their stands were next to each other&amp;#8230;) is something I missed since the last Desktop Summit in 2011.&lt;/p&gt;
+&lt;p&gt;My talks were also good, except for the beamer-slides-technical-error at the beginning, which took quite some time (I blame KScreen &lt;img alt=";-)" class="wp-smiley" src="http://blog.tenstral.net/wp-includes/images/smilies/icon_wink.gif" /&gt;  ).&lt;/p&gt;
+&lt;p&gt;In case you&amp;#8217;re interested in the slides, here they are: &lt;a href="http://people.freedesktop.org/~mak/stuff/slides/"&gt;slides for FOSDEM&amp;#8217;14 AppStream/Listaller talks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The slides can likely be understood without the talk, they are way too detailed (usually I only show images on slides, but that doesn&amp;#8217;t help people who can&amp;#8217;t see the talk ^^)&lt;/p&gt;
+&lt;p&gt;I hope I can make it to FOSDEM&amp;#8217;15 as well &amp;#8211; I&amp;#8217;ve been there only once, but it already is my favourite FOSS-conference (and I love Belgian waffles) &lt;img alt=";-)" class="wp-smiley" src="http://blog.tenstral.net/wp-includes/images/smilies/icon_wink.gif" /&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://krita.org/item/215-in-the-bag</guid>
+      <title>In the bag!</title>
+      <author>Krita News</author>
+      <pubDate>Wed, 12 Feb 2014 16:01:32 GMT</pubDate>
+      <link>http://feedproxy.google.com/~r/krita/news/~3/dUr5ER3mZlQ/215-in-the-bag</link>
+      <description>&lt;div class="K2FeedIntroText"&gt;&lt;p&gt;Yesterday, the Muses DVD arrived from the printers. Today, all pre-orders got stuffed in jiffy bags and sent on to the post office! Irina Rempt did all the hard work of creating address labels, stuffing the bags, pasting on the stamps, and then we bagged the bags in Official Post Office bags! So, if you had ordered one, it's on its way!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" border="0" src="http://krita.org/images/postbags_sm.png" /&gt;&lt;/p&gt;
+&lt;p&gt;And if you haven't ordered one yet...&lt;/p&gt;
+&lt;form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"&gt;
+&lt;p&gt;&lt;input name="cmd" type="hidden" value="_s-xclick" /&gt; &lt;input name="hosted_button_id" type="hidden" value="S48TSNS46KM58" /&gt; &lt;input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" type="image" /&gt; &lt;img alt="" border="0" height="1" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" /&gt;&lt;/p&gt;
+&lt;p&gt;Support Krita development by getting your very own copy! &lt;/p&gt;
+&lt;/form&gt;&lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/krita/news?a=dUr5ER3mZlQ:BcrbMUw5u-M:yIl2AUoC8zA"&gt;&lt;img border="0" src="http://feeds.feedburner.com/~ff/krita/news?d=yIl2AUoC8zA" /&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img height="1" src="http://feeds.feedburner.com/~r/krita/news/~4/dUr5ER3mZlQ" width="1" /&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="false">http://bhush9.github.io/2014/02/12/conf-kde-in/</guid>
+      <title>KDE India conference 2014</title>
+      <author>Bhushan Shah (bshah)</author>
+      <pubDate>Wed, 12 Feb 2014 11:20:00 GMT</pubDate>
+      <link>http://bhush9.github.io/2014/02/12/conf-kde-in/</link>
+      <description>&lt;p&gt;Hello planet! KDE India team is going to organize a KDE India conference 2014 in DAIICT, Gandhinagar. In KDE India conference there are many awesome talks. In fact every talk is interesting but I find this talks more interesting.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://kde.in/content/baloo-metadata-and-search"&gt;Baloo - Metadata and Search&lt;/a&gt; by Vishesh Handa&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://kde.in/content/c11-language-renaissance"&gt;C++11: A Language Renaissance&lt;/a&gt; by K&amp;#65533;vin Ottens&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://kde.in/content/kde-unlike-coconut"&gt;KDE unlike a coconut&lt;/a&gt; by Smit Shah, Let me find out what&amp;#8217;s wrong with coconuts? I like them, they are sweet! :(&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://kde.in/content/mer-project-powering-jolla-sailfish-and-plasma-active"&gt;Mer project - powering Jolla Sailfish and Plasma Active&lt;/a&gt; by Siteshwar Vashisht and Shantanu Tushar.&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://kde.in/content/where-kde-and-where-it-going"&gt;Where KDE is and where it is going&lt;/a&gt; by Jos Poortvliet&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And of course my own talk, &lt;a href="http://kde.in/content/plasma-workspace-2-introduction"&gt;Introduction to Plasma Next by KDE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Introduction to Plasma Next by KDE" src="http://bhush9.github.io/images/confkdein.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this talk I will give introduction to Plasma Next, changes in Plasma Next and if there is enough time I will demostrate installation of KDE Frameworks 5 and Plasma Next.&lt;/p&gt;
+
+&lt;p&gt;I am already excited about KDE India conference 2014, because it is the first KDE event that I am going to attend and first talk at any KDE event (Well, no stage fear).&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="I am going to conf.kde.in 2014" src="http://bhush9.github.io/images/badgekdein.png" /&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
+ 
