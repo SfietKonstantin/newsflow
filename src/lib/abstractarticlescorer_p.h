@@ -29,26 +29,27 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef IFEEDSOURCE_H
-#define IFEEDSOURCE_H
+#ifndef ABSTRACTARTICLESCORER_P_H
+#define ABSTRACTARTICLESCORER_P_H
 
-#include <QtCore/QString>
-#include "newsflow_global.h"
+#include "abstractarticlescorer.h"
 
-class QNetworkAccessManager;
-class QObject;
-class QThreadPool;
-class AbstractFeedFetcher;
-class NEWSFLOW_EXPORT IFeedSource
+class AbstractArticleScorerPrivate: public QObject
 {
+    Q_OBJECT
 public:
-    virtual ~IFeedSource() {}
-    virtual QString name() const = 0;
-    virtual AbstractFeedFetcher * feedFetcher(QNetworkAccessManager *networkAccess,
-                                              QThreadPool *threadPool, QObject *parent = 0) = 0;
+    explicit AbstractArticleScorerPrivate(AbstractArticleScorer *q);
+    virtual ~AbstractArticleScorerPrivate();
+    QNetworkAccessManager *networkAccessManager;
+    QThreadPool *threadPool;
+    ArticleData article;
+    QString errorString;
+    float score;
+protected:
+    AbstractArticleScorer * const q_ptr;
+private:
+    Q_DECLARE_PUBLIC(AbstractArticleScorer)
 };
 
-#define IFeedSource_iid "org.SfietKonstantin.IFeedSource"
-Q_DECLARE_INTERFACE(IFeedSource, IFeedSource_iid)
 
-#endif // IFEEDSOURCE_H
+#endif // ABSTRACTARTICLESCORER_P_H

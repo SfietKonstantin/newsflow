@@ -29,24 +29,26 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef RSS_H
-#define RSS_H
+#ifndef IARTICLESCORER_H
+#define IARTICLESCORER_H
 
-#include <QtCore/QObject>
-#include <ifeedsource.h>
+#include <QtCore/QString>
+#include "newsflow_global.h"
 
-class Rss: public QObject, public IFeedSource
+class QNetworkAccessManager;
+class QObject;
+class QThreadPool;
+class AbstractArticleScorer;
+class NEWSFLOW_EXPORT IArticleScorer
 {
-    Q_OBJECT
-    Q_PLUGIN_METADATA(IID IFeedSource_iid)
-    Q_INTERFACES(IFeedSource)
 public:
-    explicit Rss(QObject *parent = 0);
-    QString name() const;
-    QNetworkReply * downloadFeedInfo(const QUrl &url, QNetworkAccessManager *networkAccessManager);
-    QNetworkReply * downloadFeed(const FeedData &feed, QNetworkAccessManager *networkAccessManager);
-    FeedData processFeedInfo(QNetworkReply *reply, ProcessError *error);
-    QList<ArticleData> processFeed(const FeedData &feed, QNetworkReply *reply, ProcessError *error = 0);
+    virtual ~IArticleScorer() {}
+    virtual QString name() const = 0;
+    virtual AbstractArticleScorer * articleScorer(QNetworkAccessManager *networkAccess,
+                                                  QThreadPool *threadPool, QObject *parent = 0) = 0;
 };
 
-#endif // RSS_H
+#define IArticleScorer_iid "org.SfietKonstantin.IArticleScorer"
+Q_DECLARE_INTERFACE(IArticleScorer, IArticleScorer_iid)
+
+#endif // IARTICLESCORER_H

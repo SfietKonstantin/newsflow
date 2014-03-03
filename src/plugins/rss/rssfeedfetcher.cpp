@@ -29,19 +29,19 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#include "rss.h"
-#include <QtCore/QLocale>
+#include "rssfeedfetcher.h"
+#include "rssfeedfetcher_p.h"
+#include <QtCore/QDebug>
 #include <QtCore/QStack>
 #include <QtCore/QXmlStreamReader>
-#include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkReply>
 #include <QtNetwork/QNetworkRequest>
-#include <articledata.h>
-#include <feeddata.h>
-#include <processerror.h>
 #include <rsssupport.h>
 
-static const char *NAME = "rss";
+static const char *BUSY_ERROR = "Cannot load: operation already in progress";
+static const char *NETWORK_ERROR = "Cannot load: network error: %1";
+static const char *PARSE_ERROR = "Cannot load: parse error: %1";
+
 static const char *CHANNEL_TAG = "channel";
 static const char *ITEM_TAG = "item";
 static const char *TITLE_TAG = "title";
@@ -54,33 +54,26 @@ static const char *URL_KEY = "url";
 static const char *IMAGE_TYPE_VALUE = "image";
 static const char *RFC822 = "ddd, dd MMM yyyy hh:mm:ss";
 
-Rss::Rss(QObject *parent)
-    : QObject(parent)
+RssFeedFetcherPrivate::RssFeedFetcherPrivate(RssFeedFetcher *q)
+    : AbstractFeedFetcherPrivate(q), feedInfoReply(0), feedReply(0)
 {
 }
 
-QString Rss::name() const
+void RssFeedFetcherPrivate::slotFeedInfoFinished()
 {
-    return NAME;
-}
+    Q_Q(RssFeedFetcher);
+    if (!feedInfoReply) {
+        qDebug() << "Feed info loaded without reply";
+        emit q->feedInfoLoaded(false);
+        return;
+    }
 
-QNetworkReply * Rss::downloadFeedInfo(const QUrl &url, QNetworkAccessManager *networkAccessManager)
-{
-    return networkAccessManager->get(QNetworkRequest(url));
-}
-
-QNetworkReply * Rss::downloadFeed(const FeedData &feed, QNetworkAccessManager *networkAccessManager)
-{
-    return networkAccessManager->get(QNetworkRequest(feed.source()));
-}
-
-FeedData Rss::processFeedInfo(QNetworkReply *reply, ProcessError *error)
-{
-    if (reply->error() != QNetworkReply::NoError) {
-        if (error) {
-            error->status = ProcessError::NetworkError;
-        }
-        return FeedData();
+    if (feedInfoReply->error() != QNetworkReply::NoError) {
+        q->setErrorString(QString(NETWORK_ERROR).arg(feedInfoReply->errorString()));
+        feedInfoReply->deleteLater();
+        feedInfoReply = 0;
+        emit q->feedInfoLoaded(false);
+        return;
     }
 
     // Info about the feed
@@ -90,7 +83,7 @@ FeedData Rss::processFeedInfo(QNetworkReply *reply, ProcessError *error)
     bool inChannel = false;
     bool shouldBreak = false;
     QStack<QStringRef> currentElementStack;
-    QXmlStreamReader reader (reply);
+    QXmlStreamReader reader (feedInfoReply);
     while (!reader.atEnd() && !shouldBreak) {
         QXmlStreamReader::TokenType type = reader.readNext();
         switch (type) {
@@ -139,30 +132,38 @@ FeedData Rss::processFeedInfo(QNetworkReply *reply, ProcessError *error)
     }
 
     if (reader.error() != QXmlStreamReader::NoError) {
-        if (error) {
-            error->status = ProcessError::ParseError;
-        }
-        return FeedData();
+        q->setErrorString(QString(PARSE_ERROR).arg(reader.errorString()));
+        feedInfoReply->deleteLater();
+        feedInfoReply = 0;
+        emit q->feedInfoLoaded(false);
+        return;
     }
 
-    if (error) {
-        error->status = ProcessError::NoError;
-    }
-
-    return FeedData(title, reply->url());
+    q->setFeedInfo(FeedData(title, feedInfoReply->url()));
+    feedInfoReply->deleteLater();
+    feedInfoReply = 0;
+    emit q->feedInfoLoaded(true);
 }
 
-QList<ArticleData> Rss::processFeed(const FeedData &feed, QNetworkReply *reply, ProcessError *error)
+void RssFeedFetcherPrivate::slotFeedFinished()
 {
-    Q_UNUSED(feed)
-    QLocale locale (QLocale::English, QLocale::UnitedStates);
-
-    if (reply->error() != QNetworkReply::NoError) {
-        if (error) {
-            error->status = ProcessError::NetworkError;
-        }
-        return QList<ArticleData>();
+    Q_Q(RssFeedFetcher);
+    if (!feedReply) {
+        qDebug() << "Feed loaded without reply";
+        emit q->feedLoaded(false);
+        return;
     }
+
+    if (feedReply->error() != QNetworkReply::NoError) {
+        q->setErrorString(QString(NETWORK_ERROR).arg(feedReply->errorString()));
+        feedReply->deleteLater();
+        feedReply = 0;
+        emit q->feedLoaded(false);
+        return;
+    }
+
+    QLocale locale (QLocale::English, QLocale::UnitedStates);
+    QList<ArticleData> articles;
 
     // Info about current article
     QString articleTitle;
@@ -172,11 +173,9 @@ QList<ArticleData> Rss::processFeed(const FeedData &feed, QNetworkReply *reply, 
     QString articleImage;
     RssSupport support;
 
-    QList<ArticleData> articles;
-
     bool inItem = false;
     QStack<QStringRef> currentElementStack;
-    QXmlStreamReader reader (reply);
+    QXmlStreamReader reader (feedReply);
     while (!reader.atEnd()) {
         QXmlStreamReader::TokenType type = reader.readNext();
         switch (type) {
@@ -256,15 +255,57 @@ QList<ArticleData> Rss::processFeed(const FeedData &feed, QNetworkReply *reply, 
     }
 
     if (reader.error() != QXmlStreamReader::NoError) {
-        if (error) {
-            error->status = ProcessError::ParseError;
-        }
-        return QList<ArticleData>();
+        q->setErrorString(QString(PARSE_ERROR).arg(reader.errorString()));
+        feedReply->deleteLater();
+        feedReply = 0;
+        emit q->feedLoaded(false);
+        return;
     }
 
-    if (error) {
-        error->status = ProcessError::NoError;
-    }
+    q->setFeed(articles);
+    feedReply->deleteLater();
+    feedReply = 0;
+    emit q->feedLoaded(true);
+}
 
-    return articles;
+////// End of private class //////
+
+RssFeedFetcher::RssFeedFetcher(QObject *parent)
+    : AbstractFeedFetcher(*(new RssFeedFetcherPrivate(this)), parent)
+{
+}
+
+RssFeedFetcher::RssFeedFetcher(QNetworkAccessManager *networkAccessManager, QThreadPool *threadPool,
+                               QObject *parent)
+    : AbstractFeedFetcher(*(new RssFeedFetcherPrivate(this)), parent)
+{
+    Q_D(RssFeedFetcher);
+    d->networkAccessManager = networkAccessManager;
+    d->threadPool = threadPool;
+}
+
+void RssFeedFetcher::loadFeedInfo()
+{
+    Q_D(RssFeedFetcher);
+    if (d->feedInfoReply) {
+        setErrorString(BUSY_ERROR);
+        emit feedInfoLoaded(false);
+        return;
+    }
+    d->feedInfoReply = d->networkAccessManager->get(QNetworkRequest(d->source));
+    connect(d->feedInfoReply, &QNetworkReply::finished,
+            d, &RssFeedFetcherPrivate::slotFeedInfoFinished);
+}
+
+void RssFeedFetcher::loadFeed()
+{
+    Q_D(RssFeedFetcher);
+    if (d->feedReply) {
+        setErrorString(BUSY_ERROR);
+        emit feedLoaded(false);
+        return;
+    }
+    d->feedReply = d->networkAccessManager->get(QNetworkRequest(d->source));
+    connect(d->feedReply, &QNetworkReply::finished,
+            d, &RssFeedFetcherPrivate::slotFeedFinished);
 }

@@ -33,20 +33,22 @@
 #include "feedmanager_p.h"
 #include <QtCore/QCoreApplication>
 #include <QtCore/QDateTime>
+#include <QtCore/QDebug>
 #include <QtCore/QFile>
 #include <QtCore/QJsonArray>
 #include <QtCore/QJsonDocument>
 #include <QtCore/QJsonObject>
 #include <QtCore/QPluginLoader>
 #include <QtCore/QStandardPaths>
+#include <QtCore/QThreadPool>
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkReply>
-#include <QtCore/QDebug>
+#include "abstractarticlescorer.h"
 #include "articlesmodel.h"
 #include "feeddata.h"
 #include "feedmodel.h"
 #include "ifeedsource.h"
-#include "iofflinearticlescorer.h"
+#include "iarticlescorer.h"
 
 static const char *FEEDS_CONFIG_FILE = "feeds.json";
 static const char *NAME_KEY = "name";
@@ -54,42 +56,75 @@ static const char *SOURCE_KEY = "source";
 static const char *LAST_UPDATED_KEY = "lastUpdated";
 static const char *PROVIDER_KEY = "provider";
 
-bool sortScore(const ScoredArticle &article1, const ScoredArticle &article2)
+bool sortScore(ScoredArticle *article1, ScoredArticle *article2)
 {
-    return article1.score > article2.score;
+    return article1->score > article2->score;
+}
+
+FeedManagerItem::~FeedManagerItem()
+{
+    feedFetcher->deleteLater();
+}
+
+FeedManagerItemScorer::FeedManagerItemScorer(QObject *parent)
+    : QObject(parent)
+{
+}
+
+FeedManagerItemScorer::~FeedManagerItemScorer()
+{
+    qDeleteAll(scoredArticles);
+    qDeleteAll(mappedScoredArticles.keys());
+}
+
+void FeedManagerItemScorer::slotLoaded(bool ok)
+{
+    AbstractArticleScorer *scorer = qobject_cast<AbstractArticleScorer *>(sender());
+    ScoredArticle *article = mappedScoredArticles.value(scorer);
+    if (!scorer) {
+        return;
+    }
+
+    if (!article) {
+        scorer->deleteLater();
+        return;
+    }
+
+    if (ok) {
+        article->score *= scorer->score();
+    }
+
+    mappedScoredArticles.remove(scorer);
+    scorer->deleteLater();
+
+    // All scores has been fetched
+    if (mappedScoredArticles.isEmpty()) {
+        emit finished();
+    }
 }
 
 FeedManagerPrivate::FeedManagerPrivate(FeedManager *q)
-    : networkAccessManager(0), q_ptr(q)
+    : QObject(), networkAccessManager(0), threadPool(0), q_ptr(q)
 {
 }
 
 FeedManagerPrivate::~FeedManagerPrivate()
 {
     clear();
-    qDeleteAll(m_downloadFeedReplies.keys());
+    qDeleteAll(m_feedFetcherToItem.keys());
 }
 
-QNetworkReply * FeedManagerPrivate::getAddFeedReply(const QString &type, const QUrl &source,
-                                                    FeedManager *feedManager)
-{
-    IFeedSource *plugin = qobject_cast<IFeedSource *>(FeedManagerPrivate::getPlugin(type));
-    if (!plugin) {
-        return 0;
-    }
-
-    qDebug() << "Plugin:" << plugin;
-    qDebug() << "Loading feed with URL" << source;
-
-    QNetworkAccessManager *networkAccessManager = feedManager->d_func()->networkAccessManager;
-    return plugin->downloadFeedInfo(source, networkAccessManager);
-}
-
-void FeedManagerPrivate::addFeed(const FeedData &feed, QObject *plugin, FeedManager *feedManager)
+void FeedManagerPrivate::addFeed(const QString &provider, const FeedData &feed,
+                                 AbstractFeedFetcher *feedFetcher, FeedManager *feedManager)
 {
     FeedManagerItem *item = new FeedManagerItem;
+    item->provider = provider;
     item->feed = feed;
-    item->plugin = plugin;
+    item->feedFetcher = feedFetcher;
+    item->feedFetcher->setSource(item->feed.source());
+    feedManager->d_func()->m_feedFetcherToItem.insert(item->feedFetcher, item);
+    connect(item->feedFetcher, &AbstractFeedFetcher::feedLoaded,
+            feedManager->d_func(), &FeedManagerPrivate::slotFeedLoaded);
     feedManager->d_func()->m_items.append(item);
     feedManager->d_func()->save();
 
@@ -154,6 +189,7 @@ void FeedManagerPrivate::unregisterArticleModel(ArticlesModel *model, const Feed
 
 void FeedManagerPrivate::init()
 {
+    Q_Q(FeedManager);
     QDir dir = configPath();
     QFile file (dir.absoluteFilePath(FEEDS_CONFIG_FILE));
     if (!file.open(QIODevice::ReadOnly)) {
@@ -181,15 +217,20 @@ void FeedManagerPrivate::init()
         QDateTime lastUpdated = QDateTime::fromString(lastUpdatedString, Qt::ISODate);
         QString provider = valueObject.value(PROVIDER_KEY).toString();
 
-        QObject *plugin = FeedManagerPrivate::getPlugin(provider);
+        AbstractFeedFetcher *feedFetcher = FeedManagerPrivate::getFeedFetcher(provider, q);
 
-        if (plugin) {
+        if (feedFetcher) {
             FeedManagerItem *item = new FeedManagerItem;
+            item->provider = provider;
             item->feed = FeedData(name, QUrl(source), lastUpdated);
-            item->plugin = plugin;
+            item->feedFetcher = feedFetcher;
+            item->feedFetcher->setSource(item->feed.source());
+            m_feedFetcherToItem.insert(item->feedFetcher, item);
+            connect(item->feedFetcher, &AbstractFeedFetcher::feedLoaded,
+                    this, &FeedManagerPrivate::slotFeedLoaded);
             m_items.append(item);
             qDebug() << "Feed found:" << name << source << lastUpdated << provider;
-            qDebug() << "Plugin:" << plugin;
+            qDebug() << "FeedFetcher created:" << feedFetcher;
         }
     }
 }
@@ -200,12 +241,9 @@ void FeedManagerPrivate::save()
     QJsonArray array;
 
     foreach (FeedManagerItem *item, m_items) {
-        IFeedSource *feedSource = qobject_cast<IFeedSource *>(item->plugin);
-        if (feedSource) {
-            QJsonObject object = FeedManagerPrivate::feedToObject(item->feed);
-            object.insert(PROVIDER_KEY, feedSource->name());
-            array.append(object);
-        }
+        QJsonObject object = FeedManagerPrivate::feedToObject(item->feed);
+        object.insert(PROVIDER_KEY, item->provider);
+        array.append(object);
     }
     document.setArray(array);
 
@@ -226,16 +264,19 @@ void FeedManagerPrivate::clear()
     m_items.clear();
 }
 
-QObject * FeedManagerPrivate::getPlugin(const QString &type)
+AbstractFeedFetcher *FeedManagerPrivate::getFeedFetcher(const QString &type,
+                                                        FeedManager *feedManager)
 {
-    QObject *plugin = 0;
+    AbstractFeedFetcher *feedFetcher = 0;
     foreach (QObject *staticPlugin, QPluginLoader::staticInstances()) {
         IFeedSource *feedSource = qobject_cast<IFeedSource *>(staticPlugin);
         if (feedSource && feedSource->name() == type) {
-            plugin = staticPlugin;
+            feedFetcher = feedSource->feedFetcher(feedManager->d_func()->networkAccessManager,
+                                                  feedManager->d_func()->threadPool,
+                                                  feedManager->d_func());
         }
     }
-    return plugin;
+    return feedFetcher;
 }
 
 QDir FeedManagerPrivate::configPath()
@@ -263,58 +304,80 @@ QJsonObject FeedManagerPrivate::feedToObject(const FeedData &feed)
     return object;
 }
 
-void FeedManagerPrivate::slotDownloadFeedFinished()
+void FeedManagerPrivate::slotFeedLoaded(bool ok)
 {
-    QNetworkReply *reply = qobject_cast<QNetworkReply *>(sender());
-    if (m_downloadFeedReplies.contains(reply)) {
-        FeedManagerItem *item = m_downloadFeedReplies.value(reply);
-        IFeedSource *feedSource = qobject_cast<IFeedSource *>(item->plugin);
-        if (feedSource) {
-            // TODO: merge articles instead of replacing
-            item->articles = score(feedSource->processFeed(item->feed, reply));
-            foreach (ArticlesModel *model, item->articleModels) {
-                model->setArticles(item->articles);
-            }
-            qDebug() << "Setting" << item->articles.count() << "articles for" << item->feed.name();
-            qDebug() << item->articleModels.count() << "models registered";
+    AbstractFeedFetcher *feedFetcher = qobject_cast<AbstractFeedFetcher *>(sender());
+    if (m_feedFetcherToItem.contains(feedFetcher)) {
+        FeedManagerItem *item = m_feedFetcherToItem.value(feedFetcher);
+        if (!ok) {
+            qDebug() << "Error fetching feed for" << item->feed.name();
+            qDebug() << "Error:" << feedFetcher->errorString();
+            return;
         }
-    }
 
-    if (reply) {
-        reply->deleteLater();
+        beginScore(item, feedFetcher->feed());
     }
 }
 
-QList<ArticleData> FeedManagerPrivate::score(const QList<ArticleData> &articles)
+void FeedManagerPrivate::slotScoringFinished()
 {
-    QList<IOfflineArticleScorer *> scorers;
+    FeedManagerItemScorer *itemScorer = qobject_cast<FeedManagerItemScorer *>(sender());
+    if (!itemScorer) {
+        return;
+    }
+
+    FeedManagerItem *item = itemScorer->item;
+    item->articles.clear();
+
+    std::sort(itemScorer->scoredArticles.begin(), itemScorer->scoredArticles.end(), sortScore);
+    foreach (ScoredArticle *scoredArticle, itemScorer->scoredArticles) {
+        item->articles.append(scoredArticle->article);
+    }
+
+    foreach (ArticlesModel *model, item->articleModels) {
+        model->setArticles(item->articles);
+    }
+    qDebug() << "Setting" << item->articles.count() << "articles for" << item->feed.name();
+    qDebug() << item->articleModels.count() << "models registered";
+
+
+    itemScorer->deleteLater();
+}
+
+void FeedManagerPrivate::beginScore(FeedManagerItem *item, const QList<ArticleData> &articles)
+{
+    QList<IArticleScorer *> scorers;
     foreach (QObject *object, QPluginLoader::staticInstances()) {
-        IOfflineArticleScorer *scorer = qobject_cast<IOfflineArticleScorer *>(object);
+        IArticleScorer *scorer = qobject_cast<IArticleScorer *>(object);
         if (scorer) {
             scorers.append(scorer);
         }
     }
 
-    QList<ArticleData> returnedArticles;
-    QList<ScoredArticle> scoredArticles;
+    FeedManagerItemScorer *itemScorer = new FeedManagerItemScorer(this);
+    itemScorer->item = item;
     foreach (const ArticleData &article, articles) {
-        ScoredArticle scoredArticle;
-        scoredArticle.article = article;
-        scoredArticle.score = 1.;
-        foreach (IOfflineArticleScorer *scorer, scorers) {
-            scoredArticle.score = scoredArticle.score * scorer->score(article);
+        ScoredArticle* scoredArticle = new ScoredArticle;
+        scoredArticle->article = article;
+        scoredArticle->score = 1.;
+        foreach (IArticleScorer *scorer, scorers) {
+            AbstractArticleScorer *articleScorer = scorer->articleScorer(networkAccessManager,
+                                                                         threadPool, this);
+            articleScorer->setArticle(article);
+            connect(articleScorer, &AbstractArticleScorer::loaded,
+                    itemScorer, &FeedManagerItemScorer::slotLoaded);
+            itemScorer->mappedScoredArticles.insert(articleScorer, scoredArticle);
         }
 
-        scoredArticles.append(scoredArticle);
-    }
-    std::sort(scoredArticles.begin(), scoredArticles.end(), sortScore);
-
-
-    foreach (const ScoredArticle &scoredArticle, scoredArticles) {
-        returnedArticles.append(scoredArticle.article);
+        itemScorer->scoredArticles.append(scoredArticle);
     }
 
-    return returnedArticles;
+    connect(itemScorer, &FeedManagerItemScorer::finished,
+            this, &FeedManagerPrivate::slotScoringFinished);
+
+    foreach (AbstractArticleScorer *articleScorer, itemScorer->mappedScoredArticles.keys()) {
+        articleScorer->load();
+    }
 }
 
 ////// End of private class //////
@@ -324,6 +387,8 @@ FeedManager::FeedManager(QObject *parent) :
 {
     Q_D(FeedManager);
     d->networkAccessManager = new QNetworkAccessManager(this);
+    d->threadPool = new QThreadPool(this);
+    d->threadPool->setMaxThreadCount(1);
     d->init();
 }
 
@@ -335,17 +400,32 @@ void FeedManager::load()
 {
     Q_D(FeedManager);
     foreach (FeedManagerItem *item, d->m_items) {
-        IFeedSource *feedSource = qobject_cast<IFeedSource *>(item->plugin);
-        if (feedSource) {
-            QNetworkReply *reply = feedSource->downloadFeed(item->feed, d->networkAccessManager);
-            connect(reply, &QNetworkReply::finished, d, &FeedManagerPrivate::slotDownloadFeedFinished);
-            d->m_downloadFeedReplies.insert(reply, item);
-            qDebug() << "Starting refreshing feed for" << item->feed.name();
-        }
+        item->feedFetcher->loadFeed();
+        qDebug() << "Starting refreshing feed for" << item->feed.name();
     }
 }
 
-//void FeedManager::deleteFeed(Feed *feed)
-//{
+void FeedManager::removeFeed(Feed *feed)
+{
+    Q_D(FeedManager);
+    FeedData data = feed->toData();
+    FeedManagerItem *item;
+    foreach (item, d->m_items) {
+        if (item->feed == data) {
+            break;
+        }
+    }
 
-//}
+    d->m_items.removeAll(item);
+    delete item;
+
+    QList<FeedData> feedData;
+    foreach (item, d->m_items) {
+        feedData.append(item->feed);
+    }
+
+    foreach (FeedModel *model, d->m_feedModels) {
+        model->setFeeds(feedData);
+    }
+    d->save();
+}

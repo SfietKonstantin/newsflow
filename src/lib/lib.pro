@@ -11,8 +11,7 @@ target.path = $${LIBDIR}
 
 HEADERS += newsflow_global.h \
     ifeedsource.h \
-    iofflinearticlescorer.h \
-    ionlinearticlescorer.h \
+    iarticlescorer.h \
     processerror.h \
     feeddata.h \
     feeddata_p.h \
@@ -32,7 +31,11 @@ HEADERS += newsflow_global.h \
     articlesmodel_p.h \
     rsssupport.h \
     rsssupport_p.h \
-    articleformatter.h
+    articleformatter.h \
+    abstractfeedfetcher.h \
+    abstractfeedfetcher_p.h \
+    abstractarticlescorer.h \
+    abstractarticlescorer_p.h
 
 SOURCES += \
     feeddata.cpp \
@@ -44,7 +47,9 @@ SOURCES += \
     feedmodel.cpp \
     articlesmodel.cpp \
     rsssupport.cpp \
-    articleformatter.cpp
+    articleformatter.cpp \
+    abstractfeedfetcher.cpp \
+    abstractarticlescorer.cpp
 
 QMAKE_PKGCONFIG_NAME = lib$$TARGET
 QMAKE_PKGCONFIG_DESCRIPTION = News flow library

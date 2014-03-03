@@ -29,26 +29,23 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef IONLINEARTICLESCORER_H
-#define IONLINEARTICLESCORER_H
+#include "timeplugin.h"
+#include "timearticlescorer.h"
 
-#include <QtCore/QString>
-#include "newsflow_global.h"
+static const char *NAME = "time";
 
-class ArticleData;
-class ProcessError;
-class QNetworkReply;
-class QNetworkAccessManager;
-class NEWSFLOW_EXPORT IOnlineArticleScorer
+TimePlugin::TimePlugin(QObject *parent)
+    : QObject(parent)
 {
-public:
-    virtual ~IOnlineArticleScorer() {}
-    virtual QString name() const = 0;
-    virtual QNetworkReply * downloadScore(const ArticleData &article, QNetworkAccessManager *networkAccessManager) = 0;
-    virtual float processScore(const ArticleData &article, QNetworkReply *reply, ProcessError *error = 0) = 0;
-};
+}
 
-#define IOnlineArticleScorer_iid "org.SfietKonstantin.IOnlineArticleScorer"
-Q_DECLARE_INTERFACE(IArticleScorer, IOnlineArticleScorer_iid)
+QString TimePlugin::name() const
+{
+    return NAME;
+}
 
-#endif // IONLINEARTICLESCORER_H
+AbstractArticleScorer * TimePlugin::articleScorer(QNetworkAccessManager *networkAccess,
+                                                  QThreadPool *threadPool, QObject *parent)
+{
+    return new TimeArticleScorer(networkAccess, threadPool, parent);
+}

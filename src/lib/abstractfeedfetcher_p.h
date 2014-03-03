@@ -29,26 +29,27 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef IFEEDSOURCE_H
-#define IFEEDSOURCE_H
+#ifndef ABSTRACTFEEDFETCHER_P_H
+#define ABSTRACTFEEDFETCHER_P_H
 
-#include <QtCore/QString>
-#include "newsflow_global.h"
+#include "abstractfeedfetcher.h"
 
-class QNetworkAccessManager;
-class QObject;
-class QThreadPool;
-class AbstractFeedFetcher;
-class NEWSFLOW_EXPORT IFeedSource
+class AbstractFeedFetcherPrivate: public QObject
 {
+    Q_OBJECT
 public:
-    virtual ~IFeedSource() {}
-    virtual QString name() const = 0;
-    virtual AbstractFeedFetcher * feedFetcher(QNetworkAccessManager *networkAccess,
-                                              QThreadPool *threadPool, QObject *parent = 0) = 0;
+    explicit AbstractFeedFetcherPrivate(AbstractFeedFetcher *q);
+    virtual ~AbstractFeedFetcherPrivate();
+    QNetworkAccessManager *networkAccessManager;
+    QThreadPool *threadPool;
+    QUrl source;
+    QString errorString;
+    FeedData feedInfo;
+    QList<ArticleData> feed;
+protected:
+    AbstractFeedFetcher * const q_ptr;
+private:
+    Q_DECLARE_PUBLIC(AbstractFeedFetcher)
 };
 
-#define IFeedSource_iid "org.SfietKonstantin.IFeedSource"
-Q_DECLARE_INTERFACE(IFeedSource, IFeedSource_iid)
-
-#endif // IFEEDSOURCE_H
+#endif // ABSTRACTFEEDFETCHER_P_H

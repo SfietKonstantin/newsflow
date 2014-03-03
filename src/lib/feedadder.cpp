@@ -36,7 +36,7 @@
 #include "processerror.h"
 
 FeedAdderPrivate::FeedAdderPrivate(FeedAdder *q)
-    : feedManager(0), plugin(0), feedSource(0), q_ptr(q)
+    : feedManager(0), feedFetcher(0), q_ptr(q)
 {
 }
 
@@ -53,26 +53,15 @@ void FeedAdderPrivate::setStatus(FeedAdder::Status newStatus)
     }
 }
 
-void FeedAdderPrivate::slotFinished()
+void FeedAdderPrivate::slotFinished(bool ok)
 {
     Q_Q(FeedAdder);
-    QNetworkReply *reply = qobject_cast<QNetworkReply *>(sender());
-    if (!reply) {
-        return;
-    }
-
-    if (reply->error() != QNetworkReply::NoError) {
+    if (!ok) {
         setStatus(FeedAdder::Error);
         return;
     }
 
-    ProcessError processError;
-    feed = feedSource->processFeedInfo(reply, &processError);
-    if (processError.status != ProcessError::NoError) {
-        setStatus(FeedAdder::Error);
-        return;
-    }
-
+    feed = feedFetcher->feedInfo();
     if (feedName != feed.name()) {
         feedName = feed.name();
         emit q->feedNameChanged();
@@ -180,18 +169,16 @@ bool FeedAdder::addFeed()
         return false;
     }
 
-    d->plugin = FeedManagerPrivate::getPlugin(d->type);
-    d->feedSource = qobject_cast<IFeedSource *>(d->plugin);
-    if (!d->plugin || !d->feedSource) {
+    d->feedFetcher = FeedManagerPrivate::getFeedFetcher(d->type, d->feedManager);
+    d->addedType = d->type;
+    if (!d->feedFetcher) {
         return false;
     }
 
-    QNetworkReply *reply = FeedManagerPrivate::getAddFeedReply(d->type, d->source, d->feedManager);
-    if (!reply) {
-        return false;
-    }
+    d->feedFetcher->setSource(d->source);
+    connect(d->feedFetcher, &AbstractFeedFetcher::feedInfoLoaded, d, &FeedAdderPrivate::slotFinished);
+    d->feedFetcher->loadFeedInfo();
 
-    connect(reply, &QNetworkReply::finished, d, &FeedAdderPrivate::slotFinished);
     d->setStatus(Loading);
     return true;
 }
@@ -203,7 +190,7 @@ bool FeedAdder::saveFeed()
         return false;
     }
 
-    if (!d->plugin) {
+    if (!d->feedFetcher) {
         return false;
     }
 
@@ -212,6 +199,6 @@ bool FeedAdder::saveFeed()
     }
 
     d->feed.setName(d->feedAlternateName);
-    FeedManagerPrivate::addFeed(d->feed, d->plugin, d->feedManager);
+    FeedManagerPrivate::addFeed(d->addedType, d->feed, d->feedFetcher, d->feedManager);
     return true;
 }

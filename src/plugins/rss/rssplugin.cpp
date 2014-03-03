@@ -29,21 +29,23 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef TIME_H
-#define TIME_H
+#include "rssplugin.h"
+#include "rssfeedfetcher.h"
 
-#include <QtCore/QObject>
-#include <iofflinearticlescorer.h>
+static const char *NAME = "rss";
 
-class Time: public QObject, public IOfflineArticleScorer
+RssPlugin::RssPlugin(QObject *parent)
+    : QObject(parent)
 {
-    Q_OBJECT
-    Q_PLUGIN_METADATA(IID IOfflineArticleScorer_iid)
-    Q_INTERFACES(IOfflineArticleScorer)
-public:
-    explicit Time(QObject *parent = 0);
-    QString name() const;
-    float score(const ArticleData &article);
-};
+}
 
-#endif // TIME_H
+QString RssPlugin::name() const
+{
+    return NAME;
+}
+
+AbstractFeedFetcher * RssPlugin::feedFetcher(QNetworkAccessManager *networkAccess,
+                                             QThreadPool *threadPool, QObject *parent)
+{
+    return new RssFeedFetcher(networkAccess, threadPool, parent);
+}

@@ -29,22 +29,19 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef IOFFLINEARTICLESCORER_H
-#define IOFFLINEARTICLESCORER_H
+#ifndef TIMEARTICLESCORER_H
+#define TIMEARTICLESCORER_H
 
-#include <QtCore/QString>
-#include "newsflow_global.h"
+#include <abstractarticlescorer.h>
 
-class ArticleData;
-class NEWSFLOW_EXPORT IOfflineArticleScorer
+class TimeArticleScorer : public AbstractArticleScorer
 {
+    Q_OBJECT
 public:
-    virtual ~IOfflineArticleScorer() {}
-    virtual QString name() const = 0;
-    virtual float score(const ArticleData &article) = 0;
+    explicit TimeArticleScorer(QObject *parent = 0);
+    explicit TimeArticleScorer(QNetworkAccessManager *networkAccessManager,
+                               QThreadPool *threadPool, QObject *parent = 0);
+    void load();
 };
 
-#define IOfflineArticleScorer_iid "org.SfietKonstantin.IOfflineArticleScorer"
-Q_DECLARE_INTERFACE(IOfflineArticleScorer, IOfflineArticleScorer_iid)
-
-#endif // IOFFLINEARTICLESCORER_H
+#endif // TIMEARTICLESCORER_H

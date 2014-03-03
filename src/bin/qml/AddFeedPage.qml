@@ -154,6 +154,8 @@ Dialog {
                 ViewPlaceholder {
                     id: placeHolder
                     enabled: feedAdder.status == FeedAdder.Error
+                    //: Error displayed when the RSS feed failed to load
+                    //% "Error adding the RSS feed"
                     text: qsTrId("newsflow-addfeedpage-rss-error-placeholder")
                 }
             }

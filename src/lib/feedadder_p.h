@@ -45,8 +45,8 @@ public:
     void setStatus(FeedAdder::Status newStatus);
     FeedAdder::Status status;
     FeedManager *feedManager;
-    QObject *plugin;
-    IFeedSource *feedSource;
+    AbstractFeedFetcher *feedFetcher;
+    QString addedType;
     QString type;
     QUrl source;
     FeedData feed;
@@ -55,7 +55,7 @@ public:
 protected:
     FeedAdder * const q_ptr;
 private:
-    void slotFinished();
+    void slotFinished(bool ok);
     Q_DECLARE_PUBLIC(FeedAdder)
 };
 

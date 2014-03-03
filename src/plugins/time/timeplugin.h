@@ -29,26 +29,22 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#include "time.h"
-#include <articledata.h>
-#include <QtCore/QDebug>
+#ifndef TIMEPLUGIN_H
+#define TIMEPLUGIN_H
 
-static const char *NAME = "time";
-static const float MAX_TIME = 1814400.; // Three Weeks
+#include <QtCore/QObject>
+#include <iarticlescorer.h>
 
-Time::Time(QObject *parent)
-    : QObject(parent)
+class TimePlugin: public QObject, public IArticleScorer
 {
-}
+    Q_OBJECT
+    Q_PLUGIN_METADATA(IID IArticleScorer_iid)
+    Q_INTERFACES(IArticleScorer)
+public:
+    explicit TimePlugin(QObject *parent = 0);
+    QString name() const;
+    AbstractArticleScorer * articleScorer(QNetworkAccessManager *networkAccess,
+                                          QThreadPool *threadPool, QObject *parent);
+};
 
-QString Time::name() const
-{
-    return NAME;
-}
-
-float Time::score(const ArticleData &article)
-{
-    QDateTime current = QDateTime::currentDateTime();
-    float elapsed = article.timestamp().secsTo(current);
-    return qBound<float>(0., 1 - elapsed / MAX_TIME, 1.);
-}
+#endif // TIMEPLUGIN_H

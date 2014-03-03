@@ -50,14 +50,22 @@ Page {
         delegate: BackgroundItem {
             height: container.height
 
-            Image {
+            Rectangle {
                 id: image
                 anchors.top: parent.top;
                 anchors.left: parent.left; anchors.right: parent.right
                 visible: model.article.image.length > 0
-                source: model.article.image
                 height: visible ? container.height / 2 : 0
+                color: Theme.secondaryHighlightColor
+                Image {
+                    anchors.centerIn: parent
+                    source: model.article.image
+                    height: Math.min(sourceSize.height, image.height)
+                    width: Math.min(sourceSize.width, image.width)
+                    fillMode: Image.PreserveAspectFit
+                }
             }
+
 
             Label {
                 id: title

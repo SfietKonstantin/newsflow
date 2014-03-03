@@ -29,27 +29,59 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef FEEDMANAGER_H
-#define FEEDMANAGER_H
+#ifndef ABSTRACTARTICLESCORER_H
+#define ABSTRACTARTICLESCORER_H
 
 #include "newsflow_global.h"
 #include <QtCore/QObject>
+#include "articledata.h"
 
-class Feed;
-class FeedManagerPrivate;
-class NEWSFLOW_EXPORT FeedManager : public QObject
+class QNetworkAccessManager;
+class QThreadPool;
+class AbstractArticleScorerPrivate;
+class NEWSFLOW_EXPORT AbstractArticleScorer : public QObject
 {
     Q_OBJECT
 public:
-    explicit FeedManager(QObject *parent = 0);
-    virtual ~FeedManager();
+    explicit AbstractArticleScorer(QObject *parent = 0);
+    explicit AbstractArticleScorer(QNetworkAccessManager *networkAccessManager,
+                                   QThreadPool *threadPool, QObject *parent = 0);
+    virtual ~AbstractArticleScorer();
+    /**
+     * @brief Network access
+     * @return QNetworkAccessManager used to perform network access.
+     */
+    QNetworkAccessManager * networkAccessManager() const;
+    /**
+     * @brief Set the network access
+     * @param networkAccessManager QNetworkAccessManager used to perform network access.
+     */
+    void setNetworkAccessManager(QNetworkAccessManager *networkAccessManager);
+    /**
+     * @brief Thread pool
+     * @return QThreadPool used to provide a thread pool.
+     */
+    QThreadPool * threadPool() const;
+    /**
+     * @brief Set the thread pool
+     * @param threadPool QThreadPool used to provide a thread pool.
+     */
+    void setThreadPool(QThreadPool *threadPool);
+    ArticleData article() const;
+    void setArticle(const ArticleData &article);
+    QString errorString() const;
+    float score() const;
 public Q_SLOTS:
-    void load();
-    void removeFeed(Feed *feed);
+    virtual void load() = 0;
+Q_SIGNALS:
+    void loaded(bool ok);
 protected:
-    QScopedPointer<FeedManagerPrivate> d_ptr;
+    void setErrorString(const QString &errorString);
+    void setScore(float score);
+    explicit AbstractArticleScorer(AbstractArticleScorerPrivate &dd, QObject *parent = 0);
+    QScopedPointer<AbstractArticleScorerPrivate> d_ptr;
 private:
-    Q_DECLARE_PRIVATE(FeedManager)
+    Q_DECLARE_PRIVATE(AbstractArticleScorer)
 };
 
-#endif // FEEDMANAGER_H
+#endif // ABSTRACTARTICLESCORER_H

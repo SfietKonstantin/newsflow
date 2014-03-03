@@ -48,8 +48,8 @@ static const char *TRANSLATION_PATH = "/usr/share/harbour-newsflow/translations"
 static const char *UNCREATABLE = "Uncreatable";
 
 
-Q_IMPORT_PLUGIN(Rss)
-Q_IMPORT_PLUGIN(Time)
+Q_IMPORT_PLUGIN(RssPlugin)
+Q_IMPORT_PLUGIN(TimePlugin)
 
 void defineImports()
 {

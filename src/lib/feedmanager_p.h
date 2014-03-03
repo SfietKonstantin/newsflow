@@ -38,21 +38,25 @@
 #include <QtCore/QMap>
 #include <QtCore/QObject>
 #include <QtCore/QSet>
+#include "abstractfeedfetcher.h"
 #include "articledata.h"
-#include "ifeedsource.h"
 #include "feeddata.h"
 #include "feedmanager.h"
 
 class QNetworkAccessManager;
 class QNetworkReply;
+class QThreadPool;
 class ArticlesModel;
 class FeedAdder;
 class FeedModel;
+class AbstractArticleScorer;
 
 struct FeedManagerItem
 {
+    virtual ~FeedManagerItem();
+    QString provider;
     FeedData feed;
-    QObject *plugin;
+    AbstractFeedFetcher *feedFetcher;
     QList<ArticleData> articles;
     QSet<ArticlesModel *> articleModels;
 };
@@ -60,7 +64,21 @@ struct FeedManagerItem
 struct ScoredArticle
 {
     ArticleData article;
-    double score;
+    float score;
+};
+
+class FeedManagerItemScorer: public QObject
+{
+    Q_OBJECT
+public:
+    explicit FeedManagerItemScorer(QObject *parent = 0);
+    virtual ~FeedManagerItemScorer();
+    void slotLoaded(bool ok);
+    FeedManagerItem *item;
+    QList<ScoredArticle *> scoredArticles;
+    QMap<AbstractArticleScorer *, ScoredArticle *> mappedScoredArticles;
+Q_SIGNALS:
+    void finished();
 };
 
 class FeedManagerPrivate: public QObject
@@ -69,9 +87,8 @@ class FeedManagerPrivate: public QObject
 public:
     explicit FeedManagerPrivate(FeedManager *q);
     virtual ~FeedManagerPrivate();
-    static QNetworkReply * getAddFeedReply(const QString &type, const QUrl &source,
-                                           FeedManager *feedManager);
-    static void addFeed(const FeedData &feed, QObject *plugin, FeedManager *feedManager);
+    static void addFeed(const QString &provider, const FeedData &feed,
+                        AbstractFeedFetcher *feedFetcher, FeedManager *feedManager);
     static void registerFeedModel(FeedModel *model, FeedManager *feedManager);
     static void unregisterFeedModel(FeedModel *model, FeedManager *feedManager);
     static void registerArticleModel(ArticlesModel *model, const FeedData &feed,
@@ -81,19 +98,21 @@ public:
     void init();
     void save();
     void clear();
-    static QObject * getPlugin(const QString &type);
+    static AbstractFeedFetcher * getFeedFetcher(const QString &type, FeedManager *feedManager);
     static QDir configPath();
     static QJsonObject feedToObject(const FeedData &feed);
     QNetworkAccessManager *networkAccessManager;
+    QThreadPool *threadPool;
 protected:
     FeedManager * const q_ptr;
 private Q_SLOTS:
-    void slotDownloadFeedFinished();
+    void slotFeedLoaded(bool ok);
+    void slotScoringFinished();
 private:
-    static QList<ArticleData> score(const QList<ArticleData> &articles);
+    void beginScore(FeedManagerItem *item, const QList<ArticleData> &articles);
     QList<FeedManagerItem *> m_items;
     QSet<FeedModel *> m_feedModels;
-    QMap<QNetworkReply *, FeedManagerItem *> m_downloadFeedReplies;
+    QMap<AbstractFeedFetcher *, FeedManagerItem *> m_feedFetcherToItem;
     Q_DECLARE_PUBLIC(FeedManager)
 };
 

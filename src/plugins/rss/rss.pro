@@ -6,10 +6,13 @@ CONFIG += plugin static
 INCLUDEPATH += ../../lib
 
 HEADERS += \
-    rss.h
+    rssplugin.h \
+    rssfeedfetcher.h \
+    rssfeedfetcher_p.h
 
 SOURCES += \
-    rss.cpp
+    rssplugin.cpp \
+    rssfeedfetcher.cpp
 
 target.path = $${PLUGINSDIR}
 INSTALLS += target

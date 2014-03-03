@@ -46,7 +46,23 @@ Page {
             feedManager: feedManager
         }
 
-        delegate: BackgroundItem {
+        delegate: ListItem {
+            id: item
+            function removeFeed() {
+                feedManager.removeFeed(model.feed)
+            }
+
+            menu: ContextMenu {
+                MenuItem {
+                    //: Context menu item to remove a feed
+                    //% "Remove"
+                    text: qsTrId("newsflow-mainpage-menu-remove")
+                    //: Text displayed on the remorse timer to remove a feed
+                    //% "Removing the feed"
+                    onClicked: remorseAction(qsTrId("newsflow-mainpage-remorse-remove"), removeFeed)
+                }
+            }
+
             Label {
                 anchors.left: parent.left; anchors.leftMargin: Theme.paddingMedium
                 anchors.right: parent.right; anchors.rightMargin: Theme.paddingMedium

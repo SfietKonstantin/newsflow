@@ -6,10 +6,12 @@ CONFIG += plugin static
 INCLUDEPATH += ../../lib
 
 HEADERS += \
-    time.h
+    timeplugin.h \
+    timearticlescorer.h
 
 SOURCES += \
-    time.cpp
+    timeplugin.cpp \
+    timearticlescorer.cpp
 
 target.path = $${PLUGINSDIR}
 INSTALLS += target

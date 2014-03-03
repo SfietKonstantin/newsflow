@@ -29,26 +29,24 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef IFEEDSOURCE_H
-#define IFEEDSOURCE_H
+#ifndef RSSFEEDFETCHER_H
+#define RSSFEEDFETCHER_H
 
-#include <QtCore/QString>
-#include "newsflow_global.h"
+#include <abstractfeedfetcher.h>
 
-class QNetworkAccessManager;
-class QObject;
-class QThreadPool;
-class AbstractFeedFetcher;
-class NEWSFLOW_EXPORT IFeedSource
+class RssFeedFetcherPrivate;
+class RssFeedFetcher : public AbstractFeedFetcher
 {
+    Q_OBJECT
 public:
-    virtual ~IFeedSource() {}
-    virtual QString name() const = 0;
-    virtual AbstractFeedFetcher * feedFetcher(QNetworkAccessManager *networkAccess,
-                                              QThreadPool *threadPool, QObject *parent = 0) = 0;
+    explicit RssFeedFetcher(QObject *parent = 0);
+    explicit RssFeedFetcher(QNetworkAccessManager *networkAccessManager,
+                            QThreadPool *threadPool, QObject *parent = 0);
+    void loadFeedInfo();
+    void loadFeed();
+private:
+    Q_DECLARE_PRIVATE(RssFeedFetcher)
+
 };
 
-#define IFeedSource_iid "org.SfietKonstantin.IFeedSource"
-Q_DECLARE_INTERFACE(IFeedSource, IFeedSource_iid)
-
-#endif // IFEEDSOURCE_H
+#endif // RSSFEEDFETCHER_H

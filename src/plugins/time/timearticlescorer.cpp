@@ -29,26 +29,39 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
  */
 
-#ifndef IFEEDSOURCE_H
-#define IFEEDSOURCE_H
+#include "timearticlescorer.h"
+#include <QtCore/QDateTime>
+#include <QtCore/QDebug>
+#include <math.h>
 
-#include <QtCore/QString>
-#include "newsflow_global.h"
+static const int MONTH = 2592000; // A month
 
-class QNetworkAccessManager;
-class QObject;
-class QThreadPool;
-class AbstractFeedFetcher;
-class NEWSFLOW_EXPORT IFeedSource
+TimeArticleScorer::TimeArticleScorer(QObject *parent)
+    : AbstractArticleScorer(parent)
 {
-public:
-    virtual ~IFeedSource() {}
-    virtual QString name() const = 0;
-    virtual AbstractFeedFetcher * feedFetcher(QNetworkAccessManager *networkAccess,
-                                              QThreadPool *threadPool, QObject *parent = 0) = 0;
-};
+}
 
-#define IFeedSource_iid "org.SfietKonstantin.IFeedSource"
-Q_DECLARE_INTERFACE(IFeedSource, IFeedSource_iid)
+TimeArticleScorer::TimeArticleScorer(QNetworkAccessManager *networkAccessManager,
+                                     QThreadPool *threadPool, QObject *parent)
+    : AbstractArticleScorer(networkAccessManager, threadPool, parent)
+{
+}
 
-#endif // IFEEDSOURCE_H
+void TimeArticleScorer::load()
+{
+    if (article().isNull()) {
+        emit loaded(false);
+        return;
+    }
+
+    if (!article().timestamp().isValid()) {
+        emit loaded(false);
+        return;
+    }
+
+    int secondsFromNow = article().timestamp().secsTo(QDateTime::currentDateTime());
+    float score = qBound<float>(0., 1. - (float) secondsFromNow / (float) MONTH, 1.);
+
+    setScore(score);
+    emit loaded(true);
+}
