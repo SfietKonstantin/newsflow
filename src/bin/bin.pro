@@ -14,19 +14,7 @@ LIBS += -L../plugins/rss -l$${NAME}-rss
 LIBS += -L../plugins/time -l$${NAME}-time
 LIBS += -L../lib -l$${NAME}
 
-#HEADERS += abstractmodel.h \
-#    abstractmodel_p.h \
-#    feed.h \
-#    feed_p.h \
-#    feedmodel.h #\
-#    feedmanager.h \
-#    feedmanager_p.h
-
-SOURCES += main.cpp #\
-#    abstractmodel.cpp \
-#    feed.cpp #\
-#    feedmodel.cpp \
-#    feedmanager.cpp
+SOURCES += main.cpp
 
 OTHER_FILES += qml/harbour-newsflow.qml \
     qml/MainPage.qml \
@@ -72,7 +60,7 @@ engineering_english_install.path = $${DATADIR}/translations
 engineering_english_install.files = $$EE_QM
 
 #translations_install.path = /usr/share/$${TARGET}/translations
-#translations_install.files = $$PWD/paristranspo_*.qm
+#translations_install.files = $$PWD/newsflow_*.qm
 
 !CONFIG(desktop):INSTALLS += engineering_english_install
 #INSTALLS += translations_install

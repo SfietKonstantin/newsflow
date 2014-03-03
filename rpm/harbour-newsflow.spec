@@ -7,6 +7,7 @@ Name:       harbour-newsflow
 
 # >> macros
 # << macros
+%define keepstatic 1
 
 %{!?qtc_qmake:%define qtc_qmake %qmake}
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
@@ -25,10 +26,21 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(sailfishapp) >= 0.0.10
+BuildRequires:  qt5-qttools
+BuildRequires:  qt5-qttools-linguist
 BuildRequires:  desktop-file-utils
 
 %description
 RSS and social news application.
+
+
+%package devel
+Summary:    Devel headers for News Flow
+Group:      Qt/Qt
+Requires:   %{name} = %{version}-%{release}
+
+%description devel
+Devel headers for News Flow.
 
 
 %prep
@@ -63,18 +75,17 @@ desktop-file-install --delete-original       \
 
 %files
 %defattr(-,root,root,-)
-/usr/include/newsflow
-/usr/lib
-/usr/share/newsflow/plugins
-/usr/share/harbour-newsflow
-/usr/share/newsflow/translations
-/usr/share/icons/hicolor/86x86/apps/
-/usr/share/applications
-/usr/share/newsflow/qml
-/usr/bin
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/86x86/apps/%{name}.png
 # >> files
 # << files
+
+%files devel
+%defattr(-,root,root,-)
+%{_libdir}/libnewsflow.a
+%{_libdir}/pkgconfig/newsflow.pc
+%{_includedir}/newsflow
+# >> files devel
+# << files devel

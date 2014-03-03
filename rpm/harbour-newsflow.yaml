@@ -16,6 +16,9 @@ PkgConfigBR:
 - Qt5Qml
 - Qt5Core
 - sailfishapp >= 0.0.10
+PkgBR:
+- qt5-qttools
+- qt5-qttools-linguist
 Requires:
 - sailfishsilica-qt5 >= 0.10.9
 Files:
@@ -23,4 +26,14 @@ Files:
 - '%{_datadir}/%{name}'
 - '%{_datadir}/applications/%{name}.desktop'
 - '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'
-PkgBR: []
+
+SubPackages:
+    - Name: devel
+      Summary: Devel headers for News Flow
+      Group: Qt/Qt
+      Description: |
+        Devel headers for News Flow.
+      Files:
+      - '%{_libdir}/libnewsflow.a'
+      - '%{_libdir}/pkgconfig/newsflow.pc'
+      - '%{_includedir}/newsflow'

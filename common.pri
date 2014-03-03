@@ -28,10 +28,10 @@ isEmpty(LIBDIR) {
     LIBDIR = $${PREFIX}/lib
 }
 isEmpty(DATADIR) {
-    DATADIR = $${PREFIX}/share/$${NAME}
+    DATADIR = $${PREFIX}/share/harbour-$${NAME}
 }
 isEmpty(PLUGINSDIR) {
-    PLUGINSDIR = $${PREFIX}/share/$${NAME}/plugins
+    PLUGINSDIR = $${PREFIX}/share/harbour-$${NAME}/plugins
 }
 isEmpty(INCLUDEDIR) {
     INCLUDEDIR = $${PREFIX}/include/$${NAME}

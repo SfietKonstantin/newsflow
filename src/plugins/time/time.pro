@@ -13,6 +13,4 @@ SOURCES += \
     timeplugin.cpp \
     timearticlescorer.cpp
 
-target.path = $${PLUGINSDIR}
-INSTALLS += target
 

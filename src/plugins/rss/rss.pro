@@ -14,6 +14,4 @@ SOURCES += \
     rssplugin.cpp \
     rssfeedfetcher.cpp
 
-target.path = $${PLUGINSDIR}
-INSTALLS += target
 
